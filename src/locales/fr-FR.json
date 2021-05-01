@@ -1,5 +1,10 @@
 {
   "about": {
+    "cv": "CV",
+    "email": "E-Mail",
+    "linkedin": "LinkedIn",
+    "paragraph": "Bienvenue sur mon site.\nJe suis Loïc Bréard, étudiant en seconde année de Master.\nMes informations de contact sont disponibles ci-dessous, plus d'informations sur mon cursus universitaire et mes compétences sont disponibles ici-même.\nBonne visite~!",
+    "portfolio": "Portfolio",
     "title": "A Propos"
   },
   "education": {
