@@ -1,3 +1,20 @@
 {
-  "hello": "Bonjour."
+  "about": {
+    "title": "A Propos"
+  },
+  "education": {
+    "title": "Formation"
+  },
+  "experience": {
+    "title": "Expérience"
+  },
+  "interests": {
+    "title": "Centres d'intérêt"
+  },
+  "projects": {
+    "title": "Projets"
+  },
+  "skills": {
+    "title": "Compétences"
+  }
 }

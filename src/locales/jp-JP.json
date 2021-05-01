@@ -1,3 +1,20 @@
 {
-  "hello": "こんにちは"
+  "about": {
+    "title": ""
+  },
+  "education": {
+    "title": ""
+  },
+  "experience": {
+    "title": ""
+  },
+  "interests": {
+    "title": ""
+  },
+  "projects": {
+    "title": ""
+  },
+  "skills": {
+    "title": ""
+  }
 }

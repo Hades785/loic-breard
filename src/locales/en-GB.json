@@ -1,3 +1,20 @@
 {
-  "hello": "Hello test."
+  "about": {
+    "title": "About"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "interests": {
+    "title": "Interests"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "skills": {
+    "title": "Skills"
+  }
 }
