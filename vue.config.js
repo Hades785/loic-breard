@@ -1,3 +1,5 @@
+const appTitle = "Loïc Bréard";
+
 module.exports = {
   pluginOptions: {
     i18n: {
@@ -9,5 +11,11 @@ module.exports = {
       compositionOnly: false,
       fullInstall: true,
     },
+  },
+  chainWebpack: (config) => {
+    config.plugin("html").tap((args) => {
+      args[0].title = appTitle;
+      return args;
+    });
   },
 };
