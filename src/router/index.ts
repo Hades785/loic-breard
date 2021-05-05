@@ -18,6 +18,19 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     name: "Home",
     component: Home,
+    meta: {
+      title: "Loïc Bréard",
+      metaTags: [
+        {
+          name: "description",
+          content: "Software and game developer.",
+        },
+        {
+          name: "og:description",
+          content: "Software and game developer.",
+        },
+      ],
+    },
   },
   {
     path: "/cv",
@@ -29,7 +42,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "About",
         component: About,
         meta: {
-          title: "Loïc Bréard - About",
+          title: "About | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -47,7 +60,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Skills",
         component: Skills,
         meta: {
-          title: "Loïc Bréard - Skills",
+          title: "Skills | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -65,7 +78,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Education",
         component: Education,
         meta: {
-          title: "Loïc Bréard - Education",
+          title: "Education | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -83,7 +96,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Experience",
         component: Experience,
         meta: {
-          title: "Loïc Bréard - Experience",
+          title: "Experience | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -101,7 +114,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Projects",
         component: Projects,
         meta: {
-          title: "Loïc Bréard - Projects",
+          title: "Projects | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -119,7 +132,7 @@ const routes: Array<RouteRecordRaw> = [
         name: "Interests",
         component: Interests,
         meta: {
-          title: "Loïc Bréard - Interests",
+          title: "Interests | Loïc Bréard",
           metaTags: [
             {
               name: "description",
@@ -143,8 +156,8 @@ interface RouteMetaTag {
 
 // Custom RouteMeta
 interface RouteMetaC extends RouteMeta {
-  title: string;
-  metaTags: Array<RouteMetaTag>;
+  title?: string;
+  metaTags?: Array<RouteMetaTag>;
 }
 
 const router = createRouter({
@@ -154,7 +167,9 @@ const router = createRouter({
 
 // Meta guard
 router.beforeEach((to, from, next) => {
-  const title = document.title;
+  const title =
+    (routes.find((route) => route.name === "Home")?.meta as RouteMetaC).title ??
+    "Loïc Bréard";
   const titleRoute = to.matched
     .slice()
     .reverse()
@@ -173,13 +188,23 @@ router.beforeEach((to, from, next) => {
 
   (metaRoute?.meta as RouteMetaC).metaTags
     ?.map((tag) => {
-      const node = document.createElement("meta");
-      node.setAttribute("route-meta", "");
+      let node = document.querySelector(`meta[name="${tag.name}"]`);
+
+      // If meta node not found, create route specific meta node.
+      if (node === null) {
+        node = document.createElement("meta");
+        node.setAttribute("route-meta", "");
+      }
+
       node.setAttribute("name", tag.name);
       node.setAttribute("content", tag.content);
+
       return node;
     })
-    .forEach((node) => document.head.appendChild(node));
+    .forEach((node) => {
+      if (node.getAttribute("route-meta") !== null)
+        document.head.appendChild(node);
+    });
 
   next();
 });
