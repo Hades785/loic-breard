@@ -8,6 +8,18 @@
     <router-link to="/cv/interests">{{ $t("interests.title") }}</router-link>
   </div>
   <div id="cv-content">
-  <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
+
+<style lang="stylus" scoped>
+#cv-nav
+  display grid
+
+  *
+    grid-row 1
+    text-decoration none
+
+#cv-content
+  text-align left
+</style>
