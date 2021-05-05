@@ -4,6 +4,7 @@ import {
   RouteMeta,
   RouteRecordRaw,
 } from "vue-router";
+import Home from "@/pages/Home.vue";
 import CV from "@/pages/CV.vue";
 import About from "@/pages/cv/About.vue";
 import Skills from "@/pages/cv/Skills.vue";
@@ -16,7 +17,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "Home",
-    component: About,
+    component: Home,
   },
   {
     path: "/cv",

@@ -7,11 +7,15 @@
     "portfolio": "Portfolio",
     "title": "A Propos"
   },
+  "cv": "Curriculum Vitae",
   "education": {
     "title": "Formation"
   },
   "experience": {
     "title": "Expérience"
+  },
+  "home": {
+    "message": "Bonjour, je suis un développeur logiciel et un développeur de jeux. J'ai $$age$$ ans au passage."
   },
   "interests": {
     "title": "Centres d'intérêt"
@@ -21,5 +25,6 @@
   },
   "skills": {
     "title": "Compétences"
-  }
+  },
+  "title": "Loïc Bréard　「フズキ」"
 }

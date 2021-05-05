@@ -7,11 +7,15 @@
     "portfolio": "",
     "title": ""
   },
+  "cv": "履歴書",
   "education": {
     "title": ""
   },
   "experience": {
     "title": ""
+  },
+  "home": {
+    "message": "こんにちは。私はソフトウェア開発者とゲーム開発者です。私は$$age$$歳です。"
   },
   "interests": {
     "title": ""
@@ -21,5 +25,6 @@
   },
   "skills": {
     "title": ""
-  }
+  },
+  "title": "ブレアール・ロイック　「フズキ」"
 }
