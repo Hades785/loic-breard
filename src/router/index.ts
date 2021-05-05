@@ -167,9 +167,6 @@ const router = createRouter({
 
 // Meta guard
 router.beforeEach((to, from, next) => {
-  const title =
-    (routes.find((route) => route.name === "Home")?.meta as RouteMetaC).title ??
-    "Loïc Bréard";
   const titleRoute = to.matched
     .slice()
     .reverse()
@@ -179,13 +176,16 @@ router.beforeEach((to, from, next) => {
     .reverse()
     .find((r) => r?.meta?.metaTags);
 
-  document.title = (titleRoute?.meta as RouteMetaC).title ?? title;
+  // Update title
+  document.title =
+    (titleRoute?.meta as RouteMetaC).title ?? process.env.VUE_APP_TITLE;
 
   // Clear route meta
   Array.from(document.querySelectorAll("[route-meta]")).map((node) =>
     node.remove()
   );
 
+  // Update meta
   (metaRoute?.meta as RouteMetaC).metaTags
     ?.map((tag) => {
       let node = document.querySelector(`meta[name="${tag.name}"]`);
