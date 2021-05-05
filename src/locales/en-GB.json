@@ -20,6 +20,12 @@
   "interests": {
     "title": "Interests"
   },
+  "lang": {
+    "enGB": "English",
+    "frFR": "French",
+    "jpJP": "Japanese",
+    "language": "Language"
+  },
   "projects": {
     "title": "Projects"
   },

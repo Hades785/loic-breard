@@ -7,6 +7,14 @@
       <router-link to="/cv/">{{ $t("cv") }}</router-link>
   </div>
   </div>
+  <div id="lang-select">
+    <span>{{ $t("lang.language") }}</span>
+    <select v-model="$i18n.locale">
+      <option value="fr-FR">{{ $t("lang.frFR") }}</option>
+      <option value="en-GB">{{ $t("lang.enGB") }}</option>
+      <option value="jp-JP">{{ $t("lang.jpJP") }}</option>
+    </select>
+  </div>
   <div id="content">
   <router-view />
   </div>

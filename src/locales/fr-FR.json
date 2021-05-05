@@ -20,6 +20,12 @@
   "interests": {
     "title": "Centres d'intérêt"
   },
+  "lang": {
+    "enGB": "Anglais",
+    "frFR": "Français",
+    "jpJP": "Japonais",
+    "language": "Langue"
+  },
   "projects": {
     "title": "Projets"
   },
