@@ -1,6 +1,6 @@
 import {
   createRouter,
-  createWebHashHistory,
+  createWebHistory,
   RouteMeta,
   RouteRecordRaw,
 } from "vue-router";
@@ -161,7 +161,7 @@ interface RouteMetaC extends RouteMeta {
 }
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 
