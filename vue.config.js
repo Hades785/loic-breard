@@ -13,6 +13,7 @@ module.exports = {
   chainWebpack: (config) => {
     config.plugin("html").tap((args) => {
       args[0].title = process.env.VUE_APP_TITLE;
+      args[0].canonical = process.env.VUE_APP_CANONICAL;
       return args;
     });
   },

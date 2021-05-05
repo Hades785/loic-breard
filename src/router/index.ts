@@ -180,6 +180,11 @@ router.beforeEach((to, from, next) => {
   document.title =
     (titleRoute?.meta as RouteMetaC).title ?? process.env.VUE_APP_TITLE;
 
+  // Update canonical url
+  document
+    .querySelector(`link[rel="canonical"]`)
+    ?.setAttribute("href", `${process.env.VUE_APP_CANONICAL}${to.path}`);
+
   // Clear route meta
   Array.from(document.querySelectorAll("[route-meta]")).map((node) =>
     node.remove()
