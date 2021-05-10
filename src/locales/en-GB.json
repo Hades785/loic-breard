@@ -9,6 +9,18 @@
   },
   "cv": "Curriculum Vitae",
   "education": {
+    "1": {
+      "school": "Blagnac University Institute of Technology - Blagnac, France",
+      "title": "Technology Degree (DUT) - Computer Science"
+    },
+    "2": {
+      "school": "UPSSITECH - Toulouse, France",
+      "title": "Engineering School - Robotics and Interactive Systems"
+    },
+    "3": {
+      "school": "INU Champollion - Albi, France",
+      "title": "Master's Degree - Audiovisual, Interactive Digital Media, Games"
+    },
     "title": "Education"
   },
   "experience": {

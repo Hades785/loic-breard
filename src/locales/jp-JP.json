@@ -9,6 +9,18 @@
   },
   "cv": "履歴書",
   "education": {
+    "1": {
+      "school": "",
+      "title": ""
+    },
+    "2": {
+      "school": "",
+      "title": ""
+    },
+    "3": {
+      "school": "",
+      "title": ""
+    },
     "title": ""
   },
   "experience": {
