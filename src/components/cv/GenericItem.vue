@@ -45,4 +45,6 @@ li
     span
       display block
 
+li:hover
+  color var(--accent-colour)
 </style>

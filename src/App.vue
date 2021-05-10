@@ -24,10 +24,22 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap')
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap')
 
+@media (prefers-color-scheme: dark)
+  :root
+    --bg-colour: rgb(20.4, 20.4, 12.75)
+    --text-colour: rgb(229.5, 178.5, 178.5)
+    --accent-colour: rgb(127.5, 178.5, 229.5)
+
+@media (prefers-color-scheme: light)
+  :root
+    --bg-colour: rgb(229.5, 229.5, 229.5)
+    --text-colour: rgb(63.75, 89.25, 229.5)
+    --accent-colour: rgb(229.5, 89.25, 89.25)
+
 html, body
   width 100vw
-  background-color rgb(20.4, 20.4, 12.75)
-  color rgb(229.5, 178.5, 178.5)
+  background-color var(--bg-colour)
+  color var(--text-colour)
   font-family "JetBrainsMono", "Space Mono", monospace
 
 #app
