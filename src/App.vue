@@ -40,7 +40,7 @@ html, body
   width 100vw
   background-color var(--bg-colour)
   color var(--text-colour)
-  font-family "JetBrainsMono", "Space Mono", monospace
+  font-family "JetBrains Mono", "Space Mono", monospace
 
 #app
   text-align center
