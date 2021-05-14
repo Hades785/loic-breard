@@ -3,19 +3,19 @@
   <ul>
     <education-item
       date="2019-202x"
-      :title="$t('education.3.title')"
-      :school="$t('education.3.school')"
+      :title="$t('education.aminj.title')"
+      :school="$t('education.aminj.school')"
     ></education-item>
     <education-item
       date="2018-2019"
-      :title="$t('education.2.title')"
-      :school="$t('education.2.school')"
+      :title="$t('education.upssitech.title')"
+      :school="$t('education.upssitech.school')"
       ranking="2 / 32"
     ></education-item>
     <education-item
       date="2016-2018"
-      :title="$t('education.1.title')"
-      :school="$t('education.1.school')"
+      :title="$t('education.iut.title')"
+      :school="$t('education.iut.school')"
       ranking="20 / 72"
     ></education-item>
   </ul>

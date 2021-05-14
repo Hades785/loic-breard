@@ -9,15 +9,15 @@
   },
   "cv": "Curriculum Vitae",
   "education": {
-    "1": {
+    "iut": {
       "school": "IUT de Blagnac - Blagnac, France",
       "title": "DUT - Informatique"
     },
-    "2": {
+    "upssitech": {
       "school": "UPSSITECH - Toulouse, France",
       "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
     },
-    "3": {
+    "aminj": {
       "school": "INU Champollion - Albi, France",
       "title": "Master - Audiovisuel, Média Interactifs Numériques, Jeux"
     },
