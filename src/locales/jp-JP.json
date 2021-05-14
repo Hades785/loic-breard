@@ -24,7 +24,27 @@
     "title": ""
   },
   "experience": {
+    "iridessence-demo": {
+      "description": "",
+      "location": "",
+      "title": ""
+    },
+    "nuit-info": {
+      "description": "",
+      "location": "",
+      "title": ""
+    },
+    "title": "",
+    "ubinet": {
+      "description": "",
+      "location": "",
     "title": ""
+  },
+    "ubinet2": {
+      "description": "",
+      "location": "",
+      "title": ""
+    }
   },
   "home": {
     "message": "こんにちは。私はソフトウェア開発者とゲーム開発者です。私は$$age$$歳です。"
@@ -44,5 +64,15 @@
   "skills": {
     "title": ""
   },
-  "title": "ブレアール・ロイック　「フズキ」"
+  "title": "ブレアール・ロイック　「フズキ」",
+  "tools": {
+    "csharp": "C Sharp",
+    "css3": "CSS 3",
+    "html5": "HTML 5",
+    "js-es3": "JavaScript (ECMAScript 3)",
+    "php5": "PHP 5",
+    "python27": "Python 2.7",
+    "snmp": "SNMP",
+    "unity": "Unity"
+  }
 }

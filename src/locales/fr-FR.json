@@ -24,7 +24,27 @@
     "title": "Formation"
   },
   "experience": {
-    "title": "Expérience"
+    "iridessence-demo": {
+      "description": "Développement d'un prototype d'une idée de jeu.",
+      "location": "Albi, France",
+      "title": "Game Jam - Global Game Jam 2020 [Réparer] : Iridessence"
+    },
+    "nuit-info": {
+      "description": "Challenge Ubisoft: Réalisation d'un calendrier de l'Avent",
+      "location": "Toulouse, France",
+      "title": "Compétition - Nuit de l'Informatique"
+    },
+    "title": "Expérience",
+    "ubinet": {
+      "description": "Développement de modules pour une application web de gestion de parc informatique.",
+      "location": "UBINET: Golfech, France",
+      "title": "Stage - Développement web"
+    },
+    "ubinet2": {
+      "description": "Développement de modules pour une application web de gestion de parc informatique.",
+      "location": "UBINET: Golfech, France",
+      "title": "CDD - Développement web"
+    }
   },
   "home": {
     "message": "Bonjour, je suis un développeur logiciel et un développeur de jeux. J'ai $$age$$ ans au passage."
@@ -44,5 +64,15 @@
   "skills": {
     "title": "Compétences"
   },
-  "title": "Loïc Bréard　「フズキ」"
+  "title": "Loïc Bréard　「フズキ」",
+  "tools": {
+    "csharp": "C#",
+    "css3": "CSS 3",
+    "html5": "HTML 5",
+    "js-es3": "JS (ES 3)",
+    "php5": "PHP 5",
+    "python27": "Python 2.7",
+    "snmp": "SNMP",
+    "unity": "Unity"
+  }
 }
