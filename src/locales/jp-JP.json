@@ -9,19 +9,19 @@
   },
   "cv": "履歴書",
   "education": {
-    "iut": {
-      "school": "",
-      "title": ""
-    },
-    "upssitech": {
-      "school": "",
-      "title": ""
-    },
     "aminj": {
       "school": "",
       "title": ""
     },
-    "title": ""
+    "iut": {
+      "school": "",
+      "title": ""
+    },
+    "title": "",
+    "upssitech": {
+      "school": "",
+      "title": ""
+    }
   },
   "experience": {
     "iridessence-demo": {
@@ -38,8 +38,8 @@
     "ubinet": {
       "description": "",
       "location": "",
-    "title": ""
-  },
+      "title": ""
+    },
     "ubinet2": {
       "description": "",
       "location": "",
@@ -50,7 +50,33 @@
     "message": "こんにちは。私はソフトウェア開発者とゲーム開発者です。私は$$age$$歳です。"
   },
   "interests": {
+    "games": {
+      "description": ""
+    },
+    "japan": {
+      "description": ""
+    },
+    "music": {
+      "description": ""
+    },
+    "sys-admin": {
+      "description": ""
+    },
     "title": ""
+  },
+  "interets": {
+    "games": {
+      "title": ""
+    },
+    "japan": {
+      "title": ""
+    },
+    "music": {
+      "title": ""
+    },
+    "sys-admin": {
+      "title": ""
+    }
   },
   "lang": {
     "enGB": "英語",

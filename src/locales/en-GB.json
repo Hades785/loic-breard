@@ -9,19 +9,19 @@
   },
   "cv": "Curriculum Vitae",
   "education": {
-    "iut": {
-      "school": "Blagnac University Institute of Technology - Blagnac, France",
-      "title": "Technology Degree (DUT) - Computer Science"
-    },
-    "upssitech": {
-      "school": "UPSSITECH - Toulouse, France",
-      "title": "Engineering School - Robotics and Interactive Systems"
-    },
     "aminj": {
       "school": "INU Champollion - Albi, France",
       "title": "Master's Degree - Audiovisual, Interactive Digital Media, Games"
     },
-    "title": "Education"
+    "iut": {
+      "school": "Blagnac University Institute of Technology - Blagnac, France",
+      "title": "Technology Degree (DUT) - Computer Science"
+    },
+    "title": "Education",
+    "upssitech": {
+      "school": "UPSSITECH - Toulouse, France",
+      "title": "Engineering School - Robotics and Interactive Systems"
+    }
   },
   "experience": {
     "iridessence-demo": {
@@ -30,7 +30,7 @@
       "title": "Game Jam - Global Game Jam 2020 [Repair]: Iridessence"
     },
     "nuit-info": {
-      "description": "Ubisoft challenge: Making of an Advent calendar",
+      "description": "Ubisoft challenge: Making of an Advent calendar.",
       "location": "Toulouse, France",
       "title": "Competition - Nuit de l'Informatique"
     },
@@ -50,7 +50,33 @@
     "message": "Hello, I'm a software developer and game developer. I'm $$age$$ years old by the way."
   },
   "interests": {
+    "games": {
+      "description": "Strategy games, roleplay games, platformer games."
+    },
+    "japan": {
+      "description": "Japanese culture, traditions and History."
+    },
+    "music": {
+      "description": "Piano, composing."
+    },
+    "sys-admin": {
+      "description": "Network management, system administration, Linux."
+    },
     "title": "Interests"
+  },
+  "interets": {
+    "games": {
+      "title": "Video games"
+    },
+    "japan": {
+      "title": "Japanese culture"
+    },
+    "music": {
+      "title": "Music"
+    },
+    "sys-admin": {
+      "title": "Computer system administration"
+    }
   },
   "lang": {
     "enGB": "English",

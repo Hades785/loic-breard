@@ -9,19 +9,19 @@
   },
   "cv": "Curriculum Vitae",
   "education": {
-    "iut": {
-      "school": "IUT de Blagnac - Blagnac, France",
-      "title": "DUT - Informatique"
-    },
-    "upssitech": {
-      "school": "UPSSITECH - Toulouse, France",
-      "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
-    },
     "aminj": {
       "school": "INU Champollion - Albi, France",
       "title": "Master - Audiovisuel, Média Interactifs Numériques, Jeux"
     },
-    "title": "Formation"
+    "iut": {
+      "school": "IUT de Blagnac - Blagnac, France",
+      "title": "DUT - Informatique"
+    },
+    "title": "Formation",
+    "upssitech": {
+      "school": "UPSSITECH - Toulouse, France",
+      "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
+    }
   },
   "experience": {
     "iridessence-demo": {
@@ -30,7 +30,7 @@
       "title": "Game Jam - Global Game Jam 2020 [Réparer] : Iridessence"
     },
     "nuit-info": {
-      "description": "Challenge Ubisoft: Réalisation d'un calendrier de l'Avent",
+      "description": "Challenge Ubisoft: Réalisation d'un calendrier de l'Avent.",
       "location": "Toulouse, France",
       "title": "Compétition - Nuit de l'Informatique"
     },
@@ -50,7 +50,33 @@
     "message": "Bonjour, je suis un développeur logiciel et un développeur de jeux. J'ai $$age$$ ans au passage."
   },
   "interests": {
+    "games": {
+      "description": "Jeux de stratégie, jeux de rôle, jeux de platformes."
+    },
+    "japan": {
+      "description": "Culture, traditions et Histoire du Japon."
+    },
+    "music": {
+      "description": "Piano, composition."
+    },
+    "sys-admin": {
+      "description": "Administration réseau, administration système, Linux."
+    },
     "title": "Centres d'intérêt"
+  },
+  "interets": {
+    "games": {
+      "title": "Jeux vidéo"
+    },
+    "japan": {
+      "title": "Culture Japonaise"
+    },
+    "music": {
+      "title": "Musique"
+    },
+    "sys-admin": {
+      "title": "Administration de systèmes informatiques"
+    }
   },
   "lang": {
     "enGB": "Anglais",
