@@ -1,18 +1,9 @@
 <template>
-  <template v-if="ranking">
-    <generic-item
-      :date="date"
-      :titleLine="title"
-      :firstLine="`${school} [${ranking}]`"
-    ></generic-item>
-  </template>
-  <template v-else>
-    <generic-item
-      :date="date"
-      :titleLine="title"
-      :firstLine="school"
-    ></generic-item>
-  </template>
+  <generic-item
+    :date="date"
+    :titleLine="title"
+    :firstLine="_school"
+  ></generic-item>
 </template>
 
 <script lang="ts">
@@ -28,6 +19,11 @@ export default defineComponent({
   },
   components: {
     GenericItem,
+  },
+  computed: {
+    _school(): string {
+      return this.ranking ? `${this.school} [${this.ranking}]` : this.school;
+    },
   },
 });
 </script>
