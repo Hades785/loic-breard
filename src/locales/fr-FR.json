@@ -85,20 +85,76 @@
     "language": "Langue"
   },
   "projects": {
-    "title": "Projets"
+    "aminj-cinema": {
+      "description": "Jeu à défilement horizontal infini simple réalisé avec paquetage SCORM pour un devoir dans la prémisse d'une campagne de publicité fictive (ne peux pas partager, pas ma propriété intellectuelle).",
+      "title": "Starry Universe"
+    },
+    "aminj-hololens": {
+      "description": "Environnement interactif fait pour découvrir de l'HoloLens 2.",
+      "title": "Atomic Playground"
+    },
+    "aminj-nsggp": {
+      "description": "Jeu de plateformes simple avec chargement de contenu à l'exécution réalisé pour un devoir.",
+      "title": "NSGGP: \"Not-so-generic generic platformer\""
+    },
+    "aminj-tumble": {
+      "description": "Jeu de platformes simple réalisé pour être joué avec une manette volant et pédales.",
+      "title": "Tumble"
+    },
+    "iut-blagnacrace": {
+      "description": "Application de course d'orientation dans Blagnac, réalisée pour un devoir pour apprendre à programmer pour Android.",
+      "title": "Blagnac Race"
+    },
+    "opengl-renderer": {
+      "description": "Prototype de moteur graphique 2D.",
+      "title": "Moteur graphique OpenGL primitif"
+    },
+    "title": "Projets",
+    "upssitech-robot": {
+      "description": "Robot traceur de contours de salles, logiciel de commande et simulateur.",
+      "title": "Robot traceur de contours de pièces"
+    },
+    "upssitech-search": {
+      "description": "Logiciel d'indexation et recherche de fichiers textes, images ou audio.",
+      "title": "Indexeur et moteur de recherche de fichiers"
+    },
+    "website-raw": {
+      "description": "Site web curriculum vitae polyglotte.",
+      "title": "Site web personnel"
+    },
+    "website-vue": {
+      "description": "Site web polyglotte, modulaire, multiusage.",
+      "title": "Site web personnel"
+    }
   },
   "skills": {
     "title": "Compétences"
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {
+    "android": "Android",
+    "arduino": "Arduino",
+    "c": "C",
+    "cpp": "C++",
     "csharp": "C#",
+    "css-stylus": "Stylus (préprocesseur CSS)",
     "css3": "CSS 3",
+    "electron": "Electron",
+    "hololens2": "HoloLens 2",
     "html5": "HTML 5",
+    "java": "Java",
     "js-es3": "JS (ES 3)",
+    "js-es6": "JS (ES 6)",
+    "mrtk": "MRTK",
+    "opengl": "OpenGL",
+    "phaser": "Phaser",
     "php5": "PHP 5",
+    "processing": "Processing",
     "python27": "Python 2.7",
+    "scorm": "SCORM",
     "snmp": "SNMP",
-    "unity": "Unity"
+    "ts": "Typescript",
+    "unity": "Unity",
+    "vue3": "Vue.js 3"
   }
 }

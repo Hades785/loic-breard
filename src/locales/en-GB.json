@@ -85,20 +85,76 @@
     "language": "Language"
   },
   "projects": {
-    "title": "Projects"
+    "aminj-cinema": {
+      "description": "Simple infinite runner game made with SCORM packaging for an assignment in the premise of a mock advertisement campaign (not my intellectual property, can't share).",
+      "title": "Starry Universe"
+    },
+    "aminj-hololens": {
+      "description": "Interactive environment made to discover the HoloLens 2.",
+      "title": "Atomic Playground"
+    },
+    "aminj-nsggp": {
+      "description": "Simple platformer game with runtime content loading made for an assignment.",
+      "title": "NSGGP: \"Not-so-generic generic platformer\""
+    },
+    "aminj-tumble": {
+      "description": "Simple platformer game made to be played with a steering wheel and pedals controller.",
+      "title": "Tumble"
+    },
+    "iut-blagnacrace": {
+      "description": "Orienteering race app in Blagnac, made for an assignment to learn programming on Android.",
+      "title": "Blagnac Race"
+    },
+    "opengl-renderer": {
+      "description": "2D renderer prototype.",
+      "title": "Primitive OpenGL renderer"
+    },
+    "title": "Projects",
+    "upssitech-robot": {
+      "description": "Room contour plotting robot, command software and simulator.",
+      "title": "Room contour plotting robot"
+    },
+    "upssitech-search": {
+      "description": "Indexing and search software for text, image and audio files.",
+      "title": "File indexing and search engine"
+    },
+    "website-raw": {
+      "description": "Polglot curriculum vitae website.",
+      "title": "Personal website"
+    },
+    "website-vue": {
+      "description": "Polyglot, modular and multipurpose website.",
+      "title": "Personal website"
+    }
   },
   "skills": {
     "title": "Skills"
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {
+    "android": "Android",
+    "arduino": "Arduino",
+    "c": "C",
+    "cpp": "C++",
     "csharp": "C#",
+    "css-stylus": "Stylus (CSS preprocessor)",
     "css3": "CSS 3",
+    "electron": "Electron",
+    "hololens2": "HoloLens 2",
     "html5": "HTML 5",
+    "java": "Java",
     "js-es3": "JS (ES 3)",
+    "js-es6": "JS (ES 6)",
+    "mrtk": "MRTK",
+    "opengl": "OpenGL",
+    "phaser": "Phaser",
     "php5": "PHP 5",
+    "processing": "Processing",
     "python27": "Python 2.7",
+    "scorm": "SCORM",
     "snmp": "SNMP",
-    "unity": "Unity"
+    "ts": "Typescript",
+    "unity": "Unity",
+    "vue3": "Vue.js 3"
   }
 }

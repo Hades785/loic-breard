@@ -85,20 +85,76 @@
     "language": "言葉"
   },
   "projects": {
-    "title": ""
+    "aminj-cinema": {
+      "description": "",
+      "title": "Starry Universe （スターリィ・ユニバース）"
+    },
+    "aminj-hololens": {
+      "description": "",
+      "title": "Atomic Playground （アトミック・プレイグラウンド）"
+    },
+    "aminj-nsggp": {
+      "description": "",
+      "title": "NSGGP: \"Not-so-generic generic platformer\" （ノット・ソ・ジェネリック・ジェネリック・プラットフォーマー）"
+    },
+    "aminj-tumble": {
+      "description": "",
+      "title": "Tumble （タンブル）"
+    },
+    "iut-blagnacrace": {
+      "description": "",
+      "title": "Blagnac Race （ブラニャック・レース）"
+    },
+    "opengl-renderer": {
+      "description": "",
+      "title": ""
+    },
+    "title": "",
+    "upssitech-robot": {
+      "description": "",
+      "title": ""
+    },
+    "upssitech-search": {
+      "description": "",
+      "title": ""
+    },
+    "website-raw": {
+      "description": "",
+      "title": "個人のウェブサイト"
+    },
+    "website-vue": {
+      "description": "",
+      "title": "個人のウェブサイト"
+    }
   },
   "skills": {
     "title": ""
   },
   "title": "ブレアール・ロイック　「フズキ」",
   "tools": {
+    "android": "",
+    "arduino": "Arduino",
+    "c": "C",
+    "cpp": "C++",
     "csharp": "C Sharp",
+    "css-stylus": "Stylus (CSS プリプロセッサ)",
     "css3": "CSS 3",
+    "electron": "",
+    "hololens2": "HoloLens 2",
     "html5": "HTML 5",
+    "java": "",
     "js-es3": "JavaScript (ECMAScript 3)",
+    "js-es6": "JavaScript (ECMAScript 6)",
+    "mrtk": "MRTK",
+    "opengl": "OpenGL",
+    "phaser": "",
     "php5": "PHP 5",
+    "processing": "",
     "python27": "Python 2.7",
+    "scorm": "SCORM",
     "snmp": "SNMP",
-    "unity": "Unity"
+    "ts": "Typescript",
+    "unity": "Unity",
+    "vue3": "Vue.js 3"
   }
 }
