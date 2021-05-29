@@ -27,6 +27,7 @@ export default defineComponent({
 
 <style lang="stylus" scoped>
 li
+  color var(--text-colour)
   list-style "\2014\a0"
 
   + li

@@ -80,6 +80,7 @@
   },
   "lang": {
     "enGB": "Anglais",
+    "esES": "Espagnol",
     "frFR": "Français",
     "jpJP": "Japonais",
     "language": "Langue"
@@ -128,33 +129,109 @@
     }
   },
   "skills": {
+    "general": "Compétences générales",
+    "langs": {
+      "a2": "A2",
+      "basics": "Bases",
+      "c1": "C1",
+      "fluent": "Courant",
+      "native": "Langue maternelle",
+      "title": "Langues"
+    },
+    "level": {
+      "advanced": "Avancé",
+      "basics": "Bases",
+      "intermediate": "Intermédiaire",
+      "level": "Niveau :"
+    },
+    "operating-systems": "Systèmes d'exploitation",
+    "programming": "Programmation",
+    "software": {
+      "game-engines": "Moteurs de jeux",
+      "graphics": "Infographie",
+      "software": "Logiciels"
+    },
+    "technical": "Compétences techniques",
     "title": "Compétences"
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {
+    "adobe-suite": "Suite Adobe",
     "android": "Android",
+    "animate": "Animate",
     "arduino": "Arduino",
     "c": "C",
+    "clip-studio-paint": "Clip Studio Paint",
+    "cmake": "CMake",
+    "cobol": "COBOL",
     "cpp": "C++",
     "csharp": "C#",
+    "css-less": "Less (préprocesseur CSS)",
+    "css-sass": "Sass (préprocesseur CSS)",
     "css-stylus": "Stylus (préprocesseur CSS)",
     "css3": "CSS 3",
     "electron": "Electron",
+    "gimp": "GIMP / Glimpse",
+    "godot": {
+      "godot": "Godot"
+    },
+    "gradle": "Gradle",
+    "harmony": "Harmony 2",
     "hololens2": "HoloLens 2",
     "html5": "HTML 5",
+    "illustrator": "Illustrator",
+    "inkscape": "Inkscape",
     "java": "Java",
+    "java-swing": "Swing",
+    "javafx": "JavaFX",
+    "js": "JavaScript",
     "js-es3": "JS (ES 3)",
     "js-es6": "JS (ES 6)",
+    "krita": "Krita",
+    "maven": "Maven",
     "mrtk": "MRTK",
     "opengl": "OpenGL",
+    "openxr": "OpenXR",
+    "os": {
+      "dos": "DOS",
+      "linux": {
+        "arch": "Arch",
+        "elementary": "Elementary OS (Ubuntu)",
+        "kde-neon": "KDE Neon (Ubuntu)",
+        "linux": "Linux",
+        "manjaro": "Manjaro (Arch)",
+        "ubuntu": "Ubuntu (Debian)"
+      },
+      "mobile": "Mobile",
+      "unix": "UNIX",
+      "windows": "Windows"
+    },
     "phaser": "Phaser",
+    "photoshop": "Photoshop",
+    "php": "PHP",
+    "php-phalcon": "Phalcon",
     "php5": "PHP 5",
+    "premiere": "Premiere Pro",
     "processing": "Processing",
+    "python": "Python",
     "python27": "Python 2.7",
+    "qt5": "Qt 5",
+    "rust": {
+      "bevy": "Bevy",
+      "rust": "Rust"
+    },
     "scorm": "SCORM",
+    "sfml": "SFML",
     "snmp": "SNMP",
+    "sql": "SQL",
     "ts": "Typescript",
-    "unity": "Unity",
+    "unity": {
+      "2d-tools": "Unity: Outillage 2D",
+      "animator": "Unity: Animation",
+      "input-system": "Unity: InputSystem",
+      "ui": "Unity: UI",
+      "unity": "Unity"
+    },
     "vue3": "Vue.js 3"
   }
 }

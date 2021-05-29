@@ -80,6 +80,7 @@
   },
   "lang": {
     "enGB": "英語",
+    "esES": "",
     "frFR": "フランス語",
     "jpJP": "日本語",
     "language": "言葉"
@@ -128,33 +129,109 @@
     }
   },
   "skills": {
+    "general": "",
+    "langs": {
+      "a2": "",
+      "basics": "",
+      "c1": "",
+      "fluent": "",
+      "native": "",
+      "title": ""
+    },
+    "level": {
+      "advanced": "",
+      "basics": "",
+      "intermediate": "",
+      "level": ""
+    },
+    "operating-systems": "",
+    "programming": "",
+    "software": {
+      "game-engines": "",
+      "graphics": "",
+      "software": ""
+    },
+    "technical": "",
     "title": ""
   },
   "title": "ブレアール・ロイック　「フズキ」",
   "tools": {
+    "adobe-suite": "",
     "android": "",
+    "animate": "",
     "arduino": "Arduino",
     "c": "C",
+    "clip-studio-paint": "",
+    "cmake": "",
+    "cobol": "",
     "cpp": "C++",
     "csharp": "C Sharp",
+    "css-less": "",
+    "css-sass": "",
     "css-stylus": "Stylus (CSS プリプロセッサ)",
     "css3": "CSS 3",
     "electron": "",
+    "gimp": "",
+    "godot": {
+      "godot": ""
+    },
+    "gradle": "",
+    "harmony": "",
     "hololens2": "HoloLens 2",
     "html5": "HTML 5",
+    "illustrator": "",
+    "inkscape": "",
     "java": "",
+    "java-swing": "",
+    "javafx": "",
+    "js": "",
     "js-es3": "JavaScript (ECMAScript 3)",
     "js-es6": "JavaScript (ECMAScript 6)",
+    "krita": "",
+    "maven": "",
     "mrtk": "MRTK",
     "opengl": "OpenGL",
+    "openxr": "",
+    "os": {
+      "dos": "",
+      "linux": {
+        "arch": "",
+        "elementary": "",
+        "kde-neon": "",
+        "linux": "",
+        "manjaro": "",
+        "ubuntu": ""
+      },
+      "mobile": "",
+      "unix": "",
+      "windows": ""
+    },
     "phaser": "",
+    "photoshop": "",
+    "php": "",
+    "php-phalcon": "",
     "php5": "PHP 5",
+    "premiere": "",
     "processing": "",
+    "python": "",
     "python27": "Python 2.7",
+    "qt5": "",
+    "rust": {
+      "bevy": "",
+      "rust": ""
+    },
     "scorm": "SCORM",
+    "sfml": "",
     "snmp": "SNMP",
+    "sql": "",
     "ts": "Typescript",
-    "unity": "Unity",
+    "unity": {
+      "2d-tools": "",
+      "animator": "",
+      "input-system": "",
+      "ui": "",
+      "unity": "Unity"
+    },
     "vue3": "Vue.js 3"
   }
 }

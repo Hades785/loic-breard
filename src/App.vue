@@ -38,6 +38,7 @@
 
 html, body
   width 100vw
+  overflow-x hidden
   background-color var(--bg-colour)
   color var(--text-colour)
   font-family "JetBrains Mono", "Space Mono", monospace

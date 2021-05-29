@@ -6,7 +6,7 @@
       :title="$t('experience.iridessence-demo.title')"
       :location="$t('experience.iridessence-demo.location')"
       :description="$t('experience.iridessence-demo.description')"
-      :tools="[$t('tools.unity'), $t('tools.csharp')]"
+      :tools="[$t('tools.unity.unity'), $t('tools.csharp')]"
     ></experience-item>
     <experience-item
       date="2018"

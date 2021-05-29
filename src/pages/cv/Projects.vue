@@ -20,7 +20,7 @@
       :tools="[
         $t('tools.hololens2'),
         $t('tools.mrtk'),
-        $t('tools.unity'),
+        $t('tools.unity.unity'),
         $t('tools.csharp'),
       ]"
     ></project-item>
@@ -36,14 +36,14 @@
       :title="$t('projects.aminj-cinema.title')"
       :location="$t('education.aminj.school')"
       :description="$t('projects.aminj-cinema.description')"
-      :tools="[$t('tools.scorm'), $t('tools.unity'), $t('tools.csharp')]"
+      :tools="[$t('tools.scorm'), $t('tools.unity.unity'), $t('tools.csharp')]"
     ></project-item>
     <project-item
       date="2019-2020"
       :title="$t('projects.aminj-tumble.title')"
       :location="$t('education.aminj.school')"
       :description="$t('projects.aminj-tumble.description')"
-      :tools="[$t('tools.unity'), $t('tools.csharp')]"
+      :tools="[$t('tools.unity.unity'), $t('tools.csharp')]"
     ></project-item>
     <project-item
       date="2019-2020"
