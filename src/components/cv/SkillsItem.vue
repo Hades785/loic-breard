@@ -7,7 +7,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 import GenericItem from "./GenericItem.vue";
 
 export default defineComponent({
@@ -19,15 +20,21 @@ export default defineComponent({
   components: {
     GenericItem,
   },
-  computed: {
-    _level(): string {
-      const levelStr = `${this.$t("skills.level.level")} ${this.level}`;
-      return this.level ? levelStr : "";
-    },
-    _techs(): string {
-      const techsStr = this.techs?.join(", ");
-      return this.techs ? `[${techsStr}]` : "";
-    },
+  setup(props) {
+    const i18n = useI18n();
+    const _level = computed((): string => {
+      const levelStr = `${i18n.t("skills.level.level")} ${props.level}`;
+      return props.level ? levelStr : "";
+    });
+    const _techs = computed((): string => {
+      const techsStr = props.techs?.join(", ");
+      return props.techs ? `[${techsStr}]` : "";
+    });
+
+    return {
+      _level,
+      _techs,
+    };
   },
 });
 </script>

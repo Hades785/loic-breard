@@ -8,27 +8,22 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent, ref } from "vue";
 
 export default defineComponent({
   props: {
     title: { type: String, required: true },
   },
-  data() {
-    let show = false;
+  setup() {
+    const show = ref(false);
+    const toggle = () => (show.value = !show.value);
+
+    const collapsed = computed((): string => (show.value ? "" : "collapsed"));
+
     return {
-      show,
+      collapsed,
+      toggle,
     };
-  },
-  methods: {
-    toggle() {
-      this.show = !this.show;
-    },
-  },
-  computed: {
-    collapsed(): string {
-      return this.show ? "" : "collapsed";
-    },
   },
 });
 </script>

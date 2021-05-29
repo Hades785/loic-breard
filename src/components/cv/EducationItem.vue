@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
 import GenericItem from "./GenericItem.vue";
 
 export default defineComponent({
@@ -20,10 +20,16 @@ export default defineComponent({
   components: {
     GenericItem,
   },
-  computed: {
-    _school(): string {
-      return this.ranking ? `${this.school} [${this.ranking}]` : this.school;
-    },
+  setup(props) {
+    const _school = computed((): string => {
+      return props.ranking
+        ? `${props.school} [${props.ranking}]`
+        : props.school;
+    });
+
+    return {
+      _school,
+    };
   },
 });
 </script>

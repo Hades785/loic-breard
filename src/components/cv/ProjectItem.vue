@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed, defineComponent } from "vue";
 import GenericItem from "./GenericItem.vue";
 
 export default defineComponent({
@@ -22,15 +22,20 @@ export default defineComponent({
   components: {
     GenericItem,
   },
-  computed: {
-    _description(): string {
-      const locationStr = this.location ? `${this.location} - ` : "";
-      return `${locationStr}${this.description}`;
-    },
-    _tools(): string {
-      const toolsStr = this.tools?.join(", ");
+  setup(props) {
+    const _description = computed((): string => {
+      const locationStr = props.location ? `${props.location} - ` : "";
+      return `${locationStr}${props.description}`;
+    });
+    const _tools = computed((): string => {
+      const toolsStr = props.tools?.join(", ");
       return toolsStr ? `[${toolsStr}]` : "";
-    },
+    });
+
+    return {
+      _description,
+      _tools,
+    };
   },
 });
 </script>
