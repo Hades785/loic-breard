@@ -1,18 +1,18 @@
 <template>
-  <h2>{{ $t("experience.title") }}</h2>
+  <h2>{{ $t("cv.experience.title") }}</h2>
   <ul>
     <experience-item
       date="2020"
-      :title="$t('experience.iridessence-demo.title')"
-      :location="$t('experience.iridessence-demo.location')"
-      :description="$t('experience.iridessence-demo.description')"
+      :title="$t('cv.experience.iridessence-demo.title')"
+      :location="$t('cv.experience.iridessence-demo.location')"
+      :description="$t('cv.experience.iridessence-demo.description')"
       :tools="[$t('tools.unity.unity'), $t('tools.csharp')]"
     ></experience-item>
     <experience-item
       date="2018"
-      :title="$t('experience.ubinet2.title')"
-      :location="$t('experience.ubinet2.location')"
-      :description="$t('experience.ubinet2.description')"
+      :title="$t('cv.experience.ubinet2.title')"
+      :location="$t('cv.experience.ubinet2.location')"
+      :description="$t('cv.experience.ubinet2.description')"
       :tools="[
         $t('tools.html5'),
         $t('tools.css3'),
@@ -23,9 +23,9 @@
     ></experience-item>
     <experience-item
       date="2018"
-      :title="$t('experience.ubinet.title')"
-      :location="$t('experience.ubinet.location')"
-      :description="$t('experience.ubinet.description')"
+      :title="$t('cv.experience.ubinet.title')"
+      :location="$t('cv.experience.ubinet.location')"
+      :description="$t('cv.experience.ubinet.description')"
       :tools="[
         $t('tools.html5'),
         $t('tools.css3'),
@@ -37,9 +37,9 @@
     ></experience-item>
     <experience-item
       date="2017"
-      :title="$t('experience.nuit-info.title')"
-      :location="$t('experience.nuit-info.location')"
-      :description="$t('experience.nuit-info.description')"
+      :title="$t('cv.experience.nuit-info.title')"
+      :location="$t('cv.experience.nuit-info.location')"
+      :description="$t('cv.experience.nuit-info.description')"
       :tools="[$t('tools.html5'), $t('tools.css3'), $t('tools.php5')]"
     ></experience-item>
   </ul>

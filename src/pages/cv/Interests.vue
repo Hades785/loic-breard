@@ -1,21 +1,21 @@
 <template>
-  <h2>{{ $t("interests.title") }}</h2>
+  <h2>{{ $t("cv.interests.title") }}</h2>
   <ul>
     <interests-item
-      :title="$t('interets.japan.title')"
-      :description="$t('interests.japan.description')"
+      :title="$t('cv.interests.japan.title')"
+      :description="$t('cv.interests.japan.description')"
     ></interests-item>
     <interests-item
-      :title="$t('interets.games.title')"
-      :description="$t('interests.games.description')"
+      :title="$t('cv.interests.games.title')"
+      :description="$t('cv.interests.games.description')"
     ></interests-item>
     <interests-item
-      :title="$t('interets.music.title')"
-      :description="$t('interests.music.description')"
+      :title="$t('cv.interests.music.title')"
+      :description="$t('cv.interests.music.description')"
     ></interests-item>
     <interests-item
-      :title="$t('interets.sys-admin.title')"
-      :description="$t('interests.sys-admin.description')"
+      :title="$t('cv.interests.sys-admin.title')"
+      :description="$t('cv.interests.sys-admin.description')"
     ></interests-item>
   </ul>
 </template>

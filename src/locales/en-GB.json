@@ -1,82 +1,143 @@
 {
-  "about": {
-    "cv": "CV",
-    "email": "E-Mail",
-    "linkedin": "LinkedIn",
-    "paragraph": "Welcome to my website.\nI am Loïc Bréard, student in second year of Master's degree.\nMy contact details are available below, more information on my degrees and my skills is available right here.\nHave a nice visit~!",
-    "portfolio": "Portfolio",
-    "title": "About"
-  },
-  "cv": "Curriculum Vitae",
-  "education": {
-    "aminj": {
-      "school": "INU Champollion - Albi, France",
-      "title": "Master's Degree - Audiovisual, Interactive Digital Media, Games"
+  "cv": {
+    "about": {
+      "cv": "CV",
+      "email": "E-Mail",
+      "linkedin": "LinkedIn",
+      "paragraph": "Welcome to my website.\nI am Loïc Bréard, student in second year of Master's degree.\nMy contact details are available below, more information on my degrees and my skills is available right here.\nHave a nice visit~!",
+      "portfolio": "Portfolio",
+      "title": "About"
     },
-    "iut": {
-      "school": "Blagnac University Institute of Technology - Blagnac, France",
-      "title": "Technology Degree (DUT) - Computer Science"
+    "cv": "Curriculum Vitae",
+    "education": {
+      "aminj": {
+        "school": "INU Champollion - Albi, France",
+        "title": "Master's Degree - Audiovisual, Interactive Digital Media, Games"
+      },
+      "iut": {
+        "school": "Blagnac University Institute of Technology - Blagnac, France",
+        "title": "Technology Degree (DUT) - Computer Science"
+      },
+      "title": "Education",
+      "upssitech": {
+        "school": "UPSSITECH - Toulouse, France",
+        "title": "Engineering School - Robotics and Interactive Systems"
+      }
     },
-    "title": "Education",
-    "upssitech": {
-      "school": "UPSSITECH - Toulouse, France",
-      "title": "Engineering School - Robotics and Interactive Systems"
-    }
-  },
-  "experience": {
-    "iridessence-demo": {
-      "description": "Developed a prototype for a game idea.",
-      "location": "Albi, France",
-      "title": "Game Jam - Global Game Jam 2020 [Repair]: Iridessence"
+    "experience": {
+      "iridessence-demo": {
+        "description": "Developed a prototype for a game idea.",
+        "location": "Albi, France",
+        "title": "Game Jam - Global Game Jam 2020 [Repair]: Iridessence"
+      },
+      "nuit-info": {
+        "description": "Ubisoft challenge: Making of an Advent calendar.",
+        "location": "Toulouse, France",
+        "title": "Competition - Nuit de l'Informatique"
+      },
+      "title": "Experience",
+      "ubinet": {
+        "description": "Developed modules for an IT management web application.",
+        "location": "UBINET: Golfech, France",
+        "title": "Internship - Web development"
+      },
+      "ubinet2": {
+        "description": "Developed modules for an IT management web application.",
+        "location": "UBINET: Golfech, France",
+        "title": "Fixed Term Contract - Web development"
+      }
     },
-    "nuit-info": {
-      "description": "Ubisoft challenge: Making of an Advent calendar.",
-      "location": "Toulouse, France",
-      "title": "Competition - Nuit de l'Informatique"
+    "interests": {
+      "games": {
+        "title": "Video games",
+        "description": "Strategy games, roleplay games, platformer games."
+      },
+      "japan": {
+        "title": "Japanese culture",
+        "description": "Japanese culture, traditions and History."
+      },
+      "music": {
+        "title": "Music",
+        "description": "Piano, composing."
+      },
+      "sys-admin": {
+        "title": "Computer system administration",
+        "description": "Network management, system administration, Linux."
+      },
+      "title": "Interests"
     },
-    "title": "Experience",
-    "ubinet": {
-      "description": "Developed modules for an IT management web application.",
-      "location": "UBINET: Golfech, France",
-      "title": "Internship - Web development"
+    "projects": {
+      "aminj-cinema": {
+        "description": "Simple infinite runner game made with SCORM packaging for an assignment in the premise of a mock advertisement campaign (not my intellectual property, can't share).",
+        "title": "Starry Universe"
+      },
+      "aminj-hololens": {
+        "description": "Interactive environment made to discover the HoloLens 2.",
+        "title": "Atomic Playground"
+      },
+      "aminj-nsggp": {
+        "description": "Simple platformer game with runtime content loading made for an assignment.",
+        "title": "NSGGP: \"Not-so-generic generic platformer\""
+      },
+      "aminj-tumble": {
+        "description": "Simple platformer game made to be played with a steering wheel and pedals controller.",
+        "title": "Tumble"
+      },
+      "iut-blagnacrace": {
+        "description": "Orienteering race app in Blagnac, made for an assignment to learn programming on Android.",
+        "title": "Blagnac Race"
+      },
+      "opengl-renderer": {
+        "description": "2D renderer prototype.",
+        "title": "Primitive OpenGL renderer"
+      },
+      "title": "Projects",
+      "upssitech-robot": {
+        "description": "Room contour plotting robot, command software and simulator.",
+        "title": "Room contour plotting robot"
+      },
+      "upssitech-search": {
+        "description": "Indexing and search software for text, image and audio files.",
+        "title": "File indexing and search engine"
+      },
+      "website-raw": {
+        "description": "Polglot curriculum vitae website.",
+        "title": "Personal website"
+      },
+      "website-vue": {
+        "description": "Polyglot, modular and multipurpose website.",
+        "title": "Personal website"
+      }
     },
-    "ubinet2": {
-      "description": "Developed modules for an IT management web application.",
-      "location": "UBINET: Golfech, France",
-      "title": "Fixed Term Contract - Web development"
+    "skills": {
+      "general": "Soft skills",
+      "langs": {
+        "a2": "A2",
+        "basics": "Basics",
+        "c1": "C1",
+        "fluent": "Fluent",
+        "native": "Native language",
+        "title": "Languages"
+      },
+      "level": {
+        "advanced": "Advanced",
+        "basics": "Basics",
+        "intermediate": "Intermediate",
+        "level": "Level:"
+      },
+      "operating-systems": "Operating systems",
+      "programming": "Programming",
+      "software": {
+        "game-engines": "Game engines",
+        "graphics": "Computer graphics",
+        "software": "Software"
+      },
+      "technical": "Technical skills",
+      "title": "Skills"
     }
   },
   "home": {
     "message": "Hello, I'm a software developer and game developer. I'm $$age$$ years old by the way."
-  },
-  "interests": {
-    "games": {
-      "description": "Strategy games, roleplay games, platformer games."
-    },
-    "japan": {
-      "description": "Japanese culture, traditions and History."
-    },
-    "music": {
-      "description": "Piano, composing."
-    },
-    "sys-admin": {
-      "description": "Network management, system administration, Linux."
-    },
-    "title": "Interests"
-  },
-  "interets": {
-    "games": {
-      "title": "Video games"
-    },
-    "japan": {
-      "title": "Japanese culture"
-    },
-    "music": {
-      "title": "Music"
-    },
-    "sys-admin": {
-      "title": "Computer system administration"
-    }
   },
   "lang": {
     "enGB": "English",
@@ -84,75 +145,6 @@
     "frFR": "French",
     "jpJP": "Japanese",
     "language": "Language"
-  },
-  "projects": {
-    "aminj-cinema": {
-      "description": "Simple infinite runner game made with SCORM packaging for an assignment in the premise of a mock advertisement campaign (not my intellectual property, can't share).",
-      "title": "Starry Universe"
-    },
-    "aminj-hololens": {
-      "description": "Interactive environment made to discover the HoloLens 2.",
-      "title": "Atomic Playground"
-    },
-    "aminj-nsggp": {
-      "description": "Simple platformer game with runtime content loading made for an assignment.",
-      "title": "NSGGP: \"Not-so-generic generic platformer\""
-    },
-    "aminj-tumble": {
-      "description": "Simple platformer game made to be played with a steering wheel and pedals controller.",
-      "title": "Tumble"
-    },
-    "iut-blagnacrace": {
-      "description": "Orienteering race app in Blagnac, made for an assignment to learn programming on Android.",
-      "title": "Blagnac Race"
-    },
-    "opengl-renderer": {
-      "description": "2D renderer prototype.",
-      "title": "Primitive OpenGL renderer"
-    },
-    "title": "Projects",
-    "upssitech-robot": {
-      "description": "Room contour plotting robot, command software and simulator.",
-      "title": "Room contour plotting robot"
-    },
-    "upssitech-search": {
-      "description": "Indexing and search software for text, image and audio files.",
-      "title": "File indexing and search engine"
-    },
-    "website-raw": {
-      "description": "Polglot curriculum vitae website.",
-      "title": "Personal website"
-    },
-    "website-vue": {
-      "description": "Polyglot, modular and multipurpose website.",
-      "title": "Personal website"
-    }
-  },
-  "skills": {
-    "general": "Soft skills",
-    "langs": {
-      "a2": "A2",
-      "basics": "Basics",
-      "c1": "C1",
-      "fluent": "Fluent",
-      "native": "Native language",
-      "title": "Languages"
-    },
-    "level": {
-      "advanced": "Advanced",
-      "basics": "Basics",
-      "intermediate": "Intermediate",
-      "level": "Level:"
-    },
-    "operating-systems": "Operating systems",
-    "programming": "Programming",
-    "software": {
-      "game-engines": "Game engines",
-      "graphics": "Computer graphics",
-      "software": "Software"
-    },
-    "technical": "Technical skills",
-    "title": "Skills"
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {

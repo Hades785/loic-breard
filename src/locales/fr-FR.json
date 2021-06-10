@@ -1,82 +1,143 @@
 {
-  "about": {
-    "cv": "CV",
-    "email": "E-Mail",
-    "linkedin": "LinkedIn",
-    "paragraph": "Bienvenue sur mon site.\nJe suis Loïc Bréard, étudiant en seconde année de Master.\nMes informations de contact sont disponibles ci-dessous, plus d'informations sur mon cursus universitaire et mes compétences sont disponibles ici-même.\nBonne visite~!",
-    "portfolio": "Portfolio",
-    "title": "A Propos"
-  },
-  "cv": "Curriculum Vitae",
-  "education": {
-    "aminj": {
-      "school": "INU Champollion - Albi, France",
-      "title": "Master - Audiovisuel, Média Interactifs Numériques, Jeux"
+  "cv": {
+    "about": {
+      "cv": "CV",
+      "email": "E-Mail",
+      "linkedin": "LinkedIn",
+      "paragraph": "Bienvenue sur mon site.\nJe suis Loïc Bréard, étudiant en seconde année de Master.\nMes informations de contact sont disponibles ci-dessous, plus d'informations sur mon cursus universitaire et mes compétences sont disponibles ici-même.\nBonne visite~!",
+      "portfolio": "Portfolio",
+      "title": "A Propos"
     },
-    "iut": {
-      "school": "IUT de Blagnac - Blagnac, France",
-      "title": "DUT - Informatique"
+    "cv": "Curriculum Vitae",
+    "education": {
+      "aminj": {
+        "school": "INU Champollion - Albi, France",
+        "title": "Master - Audiovisuel, Média Interactifs Numériques, Jeux"
+      },
+      "iut": {
+        "school": "IUT de Blagnac - Blagnac, France",
+        "title": "DUT - Informatique"
+      },
+      "title": "Formation",
+      "upssitech": {
+        "school": "UPSSITECH - Toulouse, France",
+        "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
+      }
     },
-    "title": "Formation",
-    "upssitech": {
-      "school": "UPSSITECH - Toulouse, France",
-      "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
-    }
-  },
-  "experience": {
-    "iridessence-demo": {
-      "description": "Développement d'un prototype d'une idée de jeu.",
-      "location": "Albi, France",
-      "title": "Game Jam - Global Game Jam 2020 [Réparer] : Iridessence"
+    "experience": {
+      "iridessence-demo": {
+        "description": "Développement d'un prototype d'une idée de jeu.",
+        "location": "Albi, France",
+        "title": "Game Jam - Global Game Jam 2020 [Réparer] : Iridessence"
+      },
+      "nuit-info": {
+        "description": "Challenge Ubisoft: Réalisation d'un calendrier de l'Avent.",
+        "location": "Toulouse, France",
+        "title": "Compétition - Nuit de l'Informatique"
+      },
+      "title": "Expérience",
+      "ubinet": {
+        "description": "Développement de modules pour une application web de gestion de parc informatique.",
+        "location": "UBINET: Golfech, France",
+        "title": "Stage - Développement web"
+      },
+      "ubinet2": {
+        "description": "Développement de modules pour une application web de gestion de parc informatique.",
+        "location": "UBINET: Golfech, France",
+        "title": "CDD - Développement web"
+      }
     },
-    "nuit-info": {
-      "description": "Challenge Ubisoft: Réalisation d'un calendrier de l'Avent.",
-      "location": "Toulouse, France",
-      "title": "Compétition - Nuit de l'Informatique"
+    "interests": {
+      "games": {
+        "title": "Jeux vidéo",
+        "description": "Jeux de stratégie, jeux de rôle, jeux de platformes."
+      },
+      "japan": {
+        "title": "Culture Japonaise",
+        "description": "Culture, traditions et Histoire du Japon."
+      },
+      "music": {
+        "title": "Musique",
+        "description": "Piano, composition."
+      },
+      "sys-admin": {
+        "title": "Administration de systèmes informatiques",
+        "description": "Administration réseau, administration système, Linux."
+      },
+      "title": "Centres d'intérêt"
     },
-    "title": "Expérience",
-    "ubinet": {
-      "description": "Développement de modules pour une application web de gestion de parc informatique.",
-      "location": "UBINET: Golfech, France",
-      "title": "Stage - Développement web"
+    "projects": {
+      "aminj-cinema": {
+        "description": "Jeu à défilement horizontal infini simple réalisé avec paquetage SCORM pour un devoir dans la prémisse d'une campagne de publicité fictive (ne peux pas partager, pas ma propriété intellectuelle).",
+        "title": "Starry Universe"
+      },
+      "aminj-hololens": {
+        "description": "Environnement interactif fait pour découvrir de l'HoloLens 2.",
+        "title": "Atomic Playground"
+      },
+      "aminj-nsggp": {
+        "description": "Jeu de plateformes simple avec chargement de contenu à l'exécution réalisé pour un devoir.",
+        "title": "NSGGP: \"Not-so-generic generic platformer\""
+      },
+      "aminj-tumble": {
+        "description": "Jeu de platformes simple réalisé pour être joué avec une manette volant et pédales.",
+        "title": "Tumble"
+      },
+      "iut-blagnacrace": {
+        "description": "Application de course d'orientation dans Blagnac, réalisée pour un devoir pour apprendre à programmer pour Android.",
+        "title": "Blagnac Race"
+      },
+      "opengl-renderer": {
+        "description": "Prototype de moteur graphique 2D.",
+        "title": "Moteur graphique OpenGL primitif"
+      },
+      "title": "Projets",
+      "upssitech-robot": {
+        "description": "Robot traceur de contours de salles, logiciel de commande et simulateur.",
+        "title": "Robot traceur de contours de pièces"
+      },
+      "upssitech-search": {
+        "description": "Logiciel d'indexation et recherche de fichiers textes, images ou audio.",
+        "title": "Indexeur et moteur de recherche de fichiers"
+      },
+      "website-raw": {
+        "description": "Site web curriculum vitae polyglotte.",
+        "title": "Site web personnel"
+      },
+      "website-vue": {
+        "description": "Site web polyglotte, modulaire, multiusage.",
+        "title": "Site web personnel"
+      }
     },
-    "ubinet2": {
-      "description": "Développement de modules pour une application web de gestion de parc informatique.",
-      "location": "UBINET: Golfech, France",
-      "title": "CDD - Développement web"
+    "skills": {
+      "general": "Compétences générales",
+      "langs": {
+        "a2": "A2",
+        "basics": "Bases",
+        "c1": "C1",
+        "fluent": "Courant",
+        "native": "Langue maternelle",
+        "title": "Langues"
+      },
+      "level": {
+        "advanced": "Avancé",
+        "basics": "Bases",
+        "intermediate": "Intermédiaire",
+        "level": "Niveau :"
+      },
+      "operating-systems": "Systèmes d'exploitation",
+      "programming": "Programmation",
+      "software": {
+        "game-engines": "Moteurs de jeux",
+        "graphics": "Infographie",
+        "software": "Logiciels"
+      },
+      "technical": "Compétences techniques",
+      "title": "Compétences"
     }
   },
   "home": {
     "message": "Bonjour, je suis un développeur logiciel et un développeur de jeux. J'ai $$age$$ ans au passage."
-  },
-  "interests": {
-    "games": {
-      "description": "Jeux de stratégie, jeux de rôle, jeux de platformes."
-    },
-    "japan": {
-      "description": "Culture, traditions et Histoire du Japon."
-    },
-    "music": {
-      "description": "Piano, composition."
-    },
-    "sys-admin": {
-      "description": "Administration réseau, administration système, Linux."
-    },
-    "title": "Centres d'intérêt"
-  },
-  "interets": {
-    "games": {
-      "title": "Jeux vidéo"
-    },
-    "japan": {
-      "title": "Culture Japonaise"
-    },
-    "music": {
-      "title": "Musique"
-    },
-    "sys-admin": {
-      "title": "Administration de systèmes informatiques"
-    }
   },
   "lang": {
     "enGB": "Anglais",
@@ -84,75 +145,6 @@
     "frFR": "Français",
     "jpJP": "Japonais",
     "language": "Langue"
-  },
-  "projects": {
-    "aminj-cinema": {
-      "description": "Jeu à défilement horizontal infini simple réalisé avec paquetage SCORM pour un devoir dans la prémisse d'une campagne de publicité fictive (ne peux pas partager, pas ma propriété intellectuelle).",
-      "title": "Starry Universe"
-    },
-    "aminj-hololens": {
-      "description": "Environnement interactif fait pour découvrir de l'HoloLens 2.",
-      "title": "Atomic Playground"
-    },
-    "aminj-nsggp": {
-      "description": "Jeu de plateformes simple avec chargement de contenu à l'exécution réalisé pour un devoir.",
-      "title": "NSGGP: \"Not-so-generic generic platformer\""
-    },
-    "aminj-tumble": {
-      "description": "Jeu de platformes simple réalisé pour être joué avec une manette volant et pédales.",
-      "title": "Tumble"
-    },
-    "iut-blagnacrace": {
-      "description": "Application de course d'orientation dans Blagnac, réalisée pour un devoir pour apprendre à programmer pour Android.",
-      "title": "Blagnac Race"
-    },
-    "opengl-renderer": {
-      "description": "Prototype de moteur graphique 2D.",
-      "title": "Moteur graphique OpenGL primitif"
-    },
-    "title": "Projets",
-    "upssitech-robot": {
-      "description": "Robot traceur de contours de salles, logiciel de commande et simulateur.",
-      "title": "Robot traceur de contours de pièces"
-    },
-    "upssitech-search": {
-      "description": "Logiciel d'indexation et recherche de fichiers textes, images ou audio.",
-      "title": "Indexeur et moteur de recherche de fichiers"
-    },
-    "website-raw": {
-      "description": "Site web curriculum vitae polyglotte.",
-      "title": "Site web personnel"
-    },
-    "website-vue": {
-      "description": "Site web polyglotte, modulaire, multiusage.",
-      "title": "Site web personnel"
-    }
-  },
-  "skills": {
-    "general": "Compétences générales",
-    "langs": {
-      "a2": "A2",
-      "basics": "Bases",
-      "c1": "C1",
-      "fluent": "Courant",
-      "native": "Langue maternelle",
-      "title": "Langues"
-    },
-    "level": {
-      "advanced": "Avancé",
-      "basics": "Bases",
-      "intermediate": "Intermédiaire",
-      "level": "Niveau :"
-    },
-    "operating-systems": "Systèmes d'exploitation",
-    "programming": "Programmation",
-    "software": {
-      "game-engines": "Moteurs de jeux",
-      "graphics": "Infographie",
-      "software": "Logiciels"
-    },
-    "technical": "Compétences techniques",
-    "title": "Compétences"
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {

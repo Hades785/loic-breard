@@ -21,9 +21,9 @@ export default defineComponent({
     GenericItem,
   },
   setup(props) {
-    const i18n = useI18n();
+    const { t } = useI18n();
     const computed_level = computed((): string => {
-      const levelStr = `${i18n.t("skills.level.level")} ${props.level}`;
+      const levelStr = `${t("cv.skills.level.level")} ${props.level}`;
       return props.level ? levelStr : "";
     });
     const computed_techs = computed((): string => {

@@ -1,82 +1,143 @@
 {
-  "about": {
-    "cv": "",
-    "email": "",
-    "linkedin": "",
-    "paragraph": "",
-    "portfolio": "",
-    "title": ""
-  },
-  "cv": "履歴書",
-  "education": {
-    "aminj": {
-      "school": "",
+  "cv": {
+    "about": {
+      "cv": "履歴書",
+      "email": "",
+      "linkedin": "",
+      "paragraph": "",
+      "portfolio": "",
       "title": ""
     },
-    "iut": {
-      "school": "",
+    "cv": "履歴書",
+    "education": {
+      "aminj": {
+        "school": "",
+        "title": ""
+      },
+      "iut": {
+        "school": "",
+        "title": ""
+      },
+      "title": "",
+      "upssitech": {
+        "school": "",
+        "title": ""
+      }
+    },
+    "experience": {
+      "iridessence-demo": {
+        "description": "",
+        "location": "",
+        "title": ""
+      },
+      "nuit-info": {
+        "description": "",
+        "location": "",
+        "title": ""
+      },
+      "title": "",
+      "ubinet": {
+        "description": "",
+        "location": "",
+        "title": ""
+      },
+      "ubinet2": {
+        "description": "",
+        "location": "",
+        "title": ""
+      }
+    },
+    "interests": {
+      "games": {
+        "title": "",
+        "description": ""
+      },
+      "japan": {
+        "title": "",
+        "description": ""
+      },
+      "music": {
+        "title": "",
+        "description": ""
+      },
+      "sys-admin": {
+        "title": "",
+        "description": ""
+      },
       "title": ""
     },
-    "title": "",
-    "upssitech": {
-      "school": "",
-      "title": ""
-    }
-  },
-  "experience": {
-    "iridessence-demo": {
-      "description": "",
-      "location": "",
-      "title": ""
+    "projects": {
+      "aminj-cinema": {
+        "description": "",
+        "title": "Starry Universe （スターリィ・ユニバース）"
+      },
+      "aminj-hololens": {
+        "description": "",
+        "title": "Atomic Playground （アトミック・プレイグラウンド）"
+      },
+      "aminj-nsggp": {
+        "description": "",
+        "title": "NSGGP: \"Not-so-generic generic platformer\" （ノット・ソ・ジェネリック・ジェネリック・プラットフォーマー）"
+      },
+      "aminj-tumble": {
+        "description": "",
+        "title": "Tumble （タンブル）"
+      },
+      "iut-blagnacrace": {
+        "description": "",
+        "title": "Blagnac Race （ブラニャック・レース）"
+      },
+      "opengl-renderer": {
+        "description": "",
+        "title": ""
+      },
+      "title": "",
+      "upssitech-robot": {
+        "description": "",
+        "title": ""
+      },
+      "upssitech-search": {
+        "description": "",
+        "title": ""
+      },
+      "website-raw": {
+        "description": "",
+        "title": "個人のウェブサイト"
+      },
+      "website-vue": {
+        "description": "",
+        "title": "個人のウェブサイト"
+      }
     },
-    "nuit-info": {
-      "description": "",
-      "location": "",
-      "title": ""
-    },
-    "title": "",
-    "ubinet": {
-      "description": "",
-      "location": "",
-      "title": ""
-    },
-    "ubinet2": {
-      "description": "",
-      "location": "",
+    "skills": {
+      "general": "",
+      "langs": {
+        "a2": "",
+        "basics": "",
+        "c1": "",
+        "fluent": "",
+        "native": "",
+        "title": ""
+      },
+      "level": {
+        "advanced": "",
+        "basics": "",
+        "intermediate": "",
+        "level": ""
+      },
+      "operating-systems": "",
+      "programming": "",
+      "software": {
+        "game-engines": "",
+        "graphics": "",
+        "software": ""
+      },
+      "technical": "",
       "title": ""
     }
   },
   "home": {
     "message": "こんにちは。私はソフトウェア開発者とゲーム開発者です。私は$$age$$歳です。"
-  },
-  "interests": {
-    "games": {
-      "description": ""
-    },
-    "japan": {
-      "description": ""
-    },
-    "music": {
-      "description": ""
-    },
-    "sys-admin": {
-      "description": ""
-    },
-    "title": ""
-  },
-  "interets": {
-    "games": {
-      "title": ""
-    },
-    "japan": {
-      "title": ""
-    },
-    "music": {
-      "title": ""
-    },
-    "sys-admin": {
-      "title": ""
-    }
   },
   "lang": {
     "enGB": "英語",
@@ -84,75 +145,6 @@
     "frFR": "フランス語",
     "jpJP": "日本語",
     "language": "言葉"
-  },
-  "projects": {
-    "aminj-cinema": {
-      "description": "",
-      "title": "Starry Universe （スターリィ・ユニバース）"
-    },
-    "aminj-hololens": {
-      "description": "",
-      "title": "Atomic Playground （アトミック・プレイグラウンド）"
-    },
-    "aminj-nsggp": {
-      "description": "",
-      "title": "NSGGP: \"Not-so-generic generic platformer\" （ノット・ソ・ジェネリック・ジェネリック・プラットフォーマー）"
-    },
-    "aminj-tumble": {
-      "description": "",
-      "title": "Tumble （タンブル）"
-    },
-    "iut-blagnacrace": {
-      "description": "",
-      "title": "Blagnac Race （ブラニャック・レース）"
-    },
-    "opengl-renderer": {
-      "description": "",
-      "title": ""
-    },
-    "title": "",
-    "upssitech-robot": {
-      "description": "",
-      "title": ""
-    },
-    "upssitech-search": {
-      "description": "",
-      "title": ""
-    },
-    "website-raw": {
-      "description": "",
-      "title": "個人のウェブサイト"
-    },
-    "website-vue": {
-      "description": "",
-      "title": "個人のウェブサイト"
-    }
-  },
-  "skills": {
-    "general": "",
-    "langs": {
-      "a2": "",
-      "basics": "",
-      "c1": "",
-      "fluent": "",
-      "native": "",
-      "title": ""
-    },
-    "level": {
-      "advanced": "",
-      "basics": "",
-      "intermediate": "",
-      "level": ""
-    },
-    "operating-systems": "",
-    "programming": "",
-    "software": {
-      "game-engines": "",
-      "graphics": "",
-      "software": ""
-    },
-    "technical": "",
-    "title": ""
   },
   "title": "ブレアール・ロイック　「フズキ」",
   "tools": {

@@ -1,20 +1,20 @@
 <template>
-  <h2>{{ $t("about.title") }}</h2>
-  <p>{{ $t("about.paragraph") }}</p>
+  <h2>{{ $t("cv.about.title") }}</h2>
+  <p>{{ $t("cv.about.paragraph") }}</p>
   <div>
-    {{ $t("about.email") }}
+    {{ $t("cv.about.email") }}
     <a :href="`mailto:${email}`">{{ email }}</a>
   </div>
   <div>
-    {{ $t("about.portfolio") }}
+    {{ $t("cv.about.portfolio") }}
     <a :href="itch">{{ itch }}</a>
   </div>
   <div>
-    {{ $t("about.cv") }}
+    {{ $t("cv.about.cv") }}
     <a :href="cv">{{ cv }}</a>
   </div>
   <div>
-    {{ $t("about.linkedin") }}
+    {{ $t("cv.about.linkedin") }}
     <a :href="linkedin">{{ linkedin }}</a>
   </div>
 </template>
@@ -23,7 +23,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  data() {
+  setup() {
     const email = "loic.breard@outlook.com";
     const itch = "https://hades785.itch.io/";
     const cv = "https://loic-breard.ovh/cv.pdf";
