@@ -3,9 +3,18 @@
     <router-link to="/" id="home">
       <h1>{{ $t("title") }}</h1>
     </router-link>
-    <div id="base-nav">
-      <router-link to="/cv/">{{ $t("cv") }}</router-link>
-    </div>
+    <nav>
+      <div id="base-nav">
+        <router-link to="/cv/">{{ $t("cv.cv") }}</router-link>
+      </div>
+      <div id="section-nav">
+        <template v-for="link in navLinks" :key="link.to">
+          <router-link :to="link.to">
+            {{ link.name }}
+          </router-link>
+        </template>
+      </div>
+    </nav>
   </div>
   <div id="lang-select">
     <span>{{ $t("lang.language") }}</span>
@@ -19,6 +28,53 @@
     <router-view />
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
+import { useRoute, useRouter } from "vue-router";
+
+interface RouterLink {
+  to: string;
+  name: string;
+}
+
+export default defineComponent({
+  setup() {
+    const { locale, t } = useI18n();
+    const router = useRouter();
+    const route = useRoute();
+    const navLinks = ref<RouterLink[]>([]);
+
+    const updateNav = () => {
+      let matchedRoute = "";
+      navLinks.value.splice(0, navLinks.value.length);
+      router.options.routes
+        .find((r) => {
+          matchedRoute = r.path;
+          return route.fullPath.startsWith(r.path);
+        })
+        ?.children?.forEach((r) => {
+          const i18nKey = `${matchedRoute}/${r.path}`
+            .replaceAll("/", ".")
+            .replace(/^\./, "");
+          // eslint-disable-next-line @intlify/vue-i18n/no-dynamic-keys
+          navLinks.value.push({ to: r.path, name: t(`${i18nKey}.title`) });
+        });
+    };
+
+    // Reverse so `/` is at the end.
+    router.options.routes.reverse();
+
+    watch(() => route.name, updateNav);
+    watch(locale, updateNav);
+
+    return {
+      navLinks,
+    };
+  },
+});
+</script>
 
 <style lang="stylus">
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap')
@@ -71,6 +127,13 @@ html, body
 
     *
       grid-row 1
+
+  #section-nav
+    display grid
+
+    *
+      grid-row 1
+      text-decoration none
 
 #lang-select
   grid-row 1
