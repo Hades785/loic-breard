@@ -7,5 +7,8 @@ export default defineComponent({
   props: {
     location: { type: String, required: true },
   },
+  setup(props, context) {
+    return ProjectItem.setup?.(props, context);
+  },
 });
 </script>

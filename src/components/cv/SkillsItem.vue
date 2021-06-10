@@ -1,8 +1,8 @@
 <template>
   <generic-item
     :titleLine="title"
-    :firstLine="_level"
-    :secondLine="_techs"
+    :firstLine="computed_level"
+    :secondLine="computed_techs"
   ></generic-item>
 </template>
 
@@ -22,18 +22,18 @@ export default defineComponent({
   },
   setup(props) {
     const i18n = useI18n();
-    const _level = computed((): string => {
+    const computed_level = computed((): string => {
       const levelStr = `${i18n.t("skills.level.level")} ${props.level}`;
       return props.level ? levelStr : "";
     });
-    const _techs = computed((): string => {
+    const computed_techs = computed((): string => {
       const techsStr = props.techs?.join(", ");
       return props.techs ? `[${techsStr}]` : "";
     });
 
     return {
-      _level,
-      _techs,
+      computed_level,
+      computed_techs,
     };
   },
 });

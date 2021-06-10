@@ -2,7 +2,7 @@
   <generic-item
     :date="date"
     :titleLine="title"
-    :firstLine="_school"
+    :firstLine="computed_school"
   ></generic-item>
 </template>
 
@@ -21,14 +21,14 @@ export default defineComponent({
     GenericItem,
   },
   setup(props) {
-    const _school = computed((): string => {
+    const computed_school = computed((): string => {
       return props.ranking
         ? `${props.school} [${props.ranking}]`
         : props.school;
     });
 
     return {
-      _school,
+      computed_school,
     };
   },
 });

@@ -2,8 +2,8 @@
   <generic-item
     :date="date"
     :titleLine="title"
-    :firstLine="_description"
-    :secondLine="_tools"
+    :firstLine="computed_description"
+    :secondLine="computed_tools"
   ></generic-item>
 </template>
 
@@ -23,18 +23,18 @@ export default defineComponent({
     GenericItem,
   },
   setup(props) {
-    const _description = computed((): string => {
+    const computed_description = computed((): string => {
       const locationStr = props.location ? `${props.location} - ` : "";
       return `${locationStr}${props.description}`;
     });
-    const _tools = computed((): string => {
+    const computed_tools = computed((): string => {
       const toolsStr = props.tools?.join(", ");
       return toolsStr ? `[${toolsStr}]` : "";
     });
 
     return {
-      _description,
-      _tools,
+      computed_description,
+      computed_tools,
     };
   },
 });
