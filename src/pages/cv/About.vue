@@ -1,21 +1,23 @@
 <template>
   <h2>{{ $t("cv.about.title") }}</h2>
   <p>{{ $t("cv.about.paragraph") }}</p>
-  <div>
-    {{ $t("cv.about.email") }}
-    <a :href="`mailto:${email}`">{{ email }}</a>
-  </div>
-  <div>
-    {{ $t("cv.about.portfolio") }}
-    <a :href="itch">{{ itch }}</a>
-  </div>
-  <div>
-    {{ $t("cv.about.cv") }}
-    <a :href="cv">{{ cv }}</a>
-  </div>
-  <div>
-    {{ $t("cv.about.linkedin") }}
-    <a :href="linkedin">{{ linkedin }}</a>
+  <div id="cv-contacts">
+    <div>
+      {{ $t("cv.about.email") }}
+      <a :href="`mailto:${email}`">{{ email }}</a>
+    </div>
+    <div>
+      {{ $t("cv.about.portfolio") }}
+      <a :href="itch">{{ itch }}</a>
+    </div>
+    <div>
+      {{ $t("cv.about.cv") }}
+      <a :href="cv">{{ cv }}</a>
+    </div>
+    <div>
+      {{ $t("cv.about.linkedin") }}
+      <a :href="linkedin">{{ linkedin }}</a>
+    </div>
   </div>
 </template>
 
@@ -38,3 +40,8 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="stylus">
+#cv-contacts
+  line-height 1.6em
+</style>

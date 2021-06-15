@@ -101,7 +101,8 @@ html, body
 
 #app
   text-align center
-  margin-top 60px
+  margin 60px
+  line-height 1.2em
   display grid
   grid-template-columns 2fr 8fr 2fr
 
@@ -114,6 +115,7 @@ html, body
 #nav
   grid-row 1
   display grid
+  margin 10px
 
   a
     text-decoration none
@@ -127,28 +129,32 @@ html, body
 
     *
       grid-row 1
+      margin 10px
 
   #section-nav
     display grid
 
     *
       grid-row 1
-      text-decoration none
+      margin 10px
 
 #lang-select
   grid-row 1
   grid-column 3
   display grid
+  grid-template-rows 2em 2em
+  margin 10px
 
   > *
     height min-content
-    width 50%
+    width 30%
 
   > span
     grid-row 1
 
   > select
     grid-row 2
+    cursor pointer
     appearance none
     border none
     background inherit
@@ -157,4 +163,5 @@ html, body
 
 #content
   grid-row 2
+  margin: 10px
 </style>
