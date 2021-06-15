@@ -14,9 +14,19 @@
           ]"
         ></skills-item>
         <skills-item
+          :title="$t('tools.kotlin')"
+          :level="$t('cv.skills.level.intermediate')"
+          :techs="[$t('tools.maven'), $t('tools.gradle')]"
+        ></skills-item>
+        <skills-item
           :title="$t('tools.csharp')"
           :level="$t('cv.skills.level.advanced')"
           :techs="[$t('tools.harmony'), $t('tools.unity.unity')]"
+        ></skills-item>
+        <skills-item
+          :title="$t('tools.haskell')"
+          :level="$t('cv.skills.level.basics')"
+          :techs="[$t('tools.haskell-stack')]"
         ></skills-item>
         <skills-item
           :title="$t('tools.js')"
