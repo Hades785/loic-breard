@@ -4,7 +4,7 @@
       "cv": "CV",
       "email": "E-Mail",
       "linkedin": "LinkedIn",
-      "paragraph": "Welcome to my website.\nI am Loïc Bréard, student in second year of Master's degree.\nMy contact details are available below, more information on my degrees and my skills is available right here.\nHave a nice visit~!",
+      "paragraph": "Welcome to my website.\nI am Loïc Bréard, student in second year of Master's degree.\nMy contact details are available below, more information on my degrees and my skills is available right here.",
       "portfolio": "Portfolio",
       "title": "About"
     },
@@ -49,20 +49,20 @@
     },
     "interests": {
       "games": {
-        "title": "Video games",
-        "description": "Strategy games, roleplay games, platformer games."
+        "description": "Strategy games, roleplay games, platformer games.",
+        "title": "Video games"
       },
       "japan": {
-        "title": "Japanese culture",
-        "description": "Japanese culture, traditions and History."
+        "description": "Japanese culture, traditions and History.",
+        "title": "Japanese culture"
       },
       "music": {
-        "title": "Music",
-        "description": "Piano, composing."
+        "description": "Piano, composing.",
+        "title": "Music"
       },
       "sys-admin": {
-        "title": "Computer system administration",
-        "description": "Network management, system administration, Linux."
+        "description": "Network management, system administration, Linux.",
+        "title": "Computer system administration"
       },
       "title": "Interests"
     },
@@ -142,8 +142,8 @@
   "lang": {
     "enGB": "English",
     "esES": "Spanish",
-    "frFR": "French",
-    "jpJP": "Japanese",
+    "frFR": "Français (French)",
+    "jpJP": "日本語 (Japanese)",
     "language": "Language"
   },
   "title": "Loïc Bréard　「フズキ」",

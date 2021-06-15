@@ -4,7 +4,7 @@
       "cv": "CV",
       "email": "E-Mail",
       "linkedin": "LinkedIn",
-      "paragraph": "Bienvenue sur mon site.\nJe suis Loïc Bréard, étudiant en seconde année de Master.\nMes informations de contact sont disponibles ci-dessous, plus d'informations sur mon cursus universitaire et mes compétences sont disponibles ici-même.\nBonne visite~!",
+      "paragraph": "Bienvenue sur mon site.\nJe suis Loïc Bréard, étudiant en seconde année de Master.\nMes informations de contact sont disponibles ci-dessous, plus d'informations sur mon cursus universitaire et mes compétences sont disponibles ici-même.",
       "portfolio": "Portfolio",
       "title": "A Propos"
     },
@@ -49,20 +49,20 @@
     },
     "interests": {
       "games": {
-        "title": "Jeux vidéo",
-        "description": "Jeux de stratégie, jeux de rôle, jeux de platformes."
+        "description": "Jeux de stratégie, jeux de rôle, jeux de platformes.",
+        "title": "Jeux vidéo"
       },
       "japan": {
-        "title": "Culture Japonaise",
-        "description": "Culture, traditions et Histoire du Japon."
+        "description": "Culture, traditions et Histoire du Japon.",
+        "title": "Culture Japonaise"
       },
       "music": {
-        "title": "Musique",
-        "description": "Piano, composition."
+        "description": "Piano, composition.",
+        "title": "Musique"
       },
       "sys-admin": {
-        "title": "Administration de systèmes informatiques",
-        "description": "Administration réseau, administration système, Linux."
+        "description": "Administration réseau, administration système, Linux.",
+        "title": "Administration de systèmes informatiques"
       },
       "title": "Centres d'intérêt"
     },
@@ -140,10 +140,10 @@
     "message": "Bonjour, je suis un développeur logiciel et un développeur de jeux. J'ai $$age$$ ans au passage."
   },
   "lang": {
-    "enGB": "Anglais",
+    "enGB": "English (Anglais)",
     "esES": "Espagnol",
     "frFR": "Français",
-    "jpJP": "Japonais",
+    "jpJP": "日本語 (Japonais)",
     "language": "Langue"
   },
   "title": "Loïc Bréard　「フズキ」",

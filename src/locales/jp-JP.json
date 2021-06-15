@@ -49,20 +49,20 @@
     },
     "interests": {
       "games": {
-        "title": "",
-        "description": ""
+        "description": "",
+        "title": ""
       },
       "japan": {
-        "title": "",
-        "description": ""
+        "description": "",
+        "title": ""
       },
       "music": {
-        "title": "",
-        "description": ""
+        "description": "",
+        "title": ""
       },
       "sys-admin": {
-        "title": "",
-        "description": ""
+        "description": "",
+        "title": ""
       },
       "title": ""
     },
@@ -140,9 +140,9 @@
     "message": "こんにちは。私はソフトウェア開発者とゲーム開発者です。私は$$age$$歳です。"
   },
   "lang": {
-    "enGB": "英語",
+    "enGB": "English (英語)",
     "esES": "",
-    "frFR": "フランス語",
+    "frFR": "Français (フランス語)",
     "jpJP": "日本語",
     "language": "言葉"
   },
