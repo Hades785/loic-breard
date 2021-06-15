@@ -110,7 +110,8 @@
       }
     },
     "skills": {
-      "general": "",
+      "computer-graphics": "",
+      "computer-science": "",
       "langs": {
         "a2": "",
         "basics": "",
@@ -129,10 +130,8 @@
       "programming": "",
       "software": {
         "game-engines": "",
-        "graphics": "",
         "software": ""
       },
-      "technical": "",
       "title": ""
     }
   },
@@ -141,7 +140,7 @@
   },
   "lang": {
     "enGB": "English (英語)",
-    "esES": "",
+    "esES": "Español (スペイン語)",
     "frFR": "Français (フランス語)",
     "jpJP": "日本語",
     "language": "言葉"

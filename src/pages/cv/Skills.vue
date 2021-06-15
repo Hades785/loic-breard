@@ -1,7 +1,7 @@
 <template>
   <h2>{{ $t("cv.skills.title") }}</h2>
   <ul>
-    <skills-list :title="$t('cv.skills.technical')">
+    <skills-list :title="$t('cv.skills.computer-science')">
       <skills-list :title="$t('cv.skills.programming')">
         <skills-item
           :title="$t('tools.java')"
@@ -92,34 +92,6 @@
             :level="$t('cv.skills.level.advanced')"
           ></skills-item>
         </skills-list>
-        <skills-list :title="$t('cv.skills.software.graphics')">
-          <skills-item
-            :title="$t('tools.clip-studio-paint')"
-            :level="$t('cv.skills.level.intermediate')"
-          ></skills-item>
-          <skills-item
-            :title="$t('tools.adobe-suite')"
-            :level="$t('cv.skills.level.intermediate')"
-            :techs="[
-              $t('tools.photoshop'),
-              $t('tools.illustrator'),
-              $t('tools.premiere'),
-              $t('tools.animate'),
-            ]"
-          ></skills-item>
-          <skills-item
-            :title="$t('tools.krita')"
-            :level="$t('cv.skills.level.intermediate')"
-          ></skills-item>
-          <skills-item
-            :title="$t('tools.inkscape')"
-            :level="$t('cv.skills.level.intermediate')"
-          ></skills-item>
-          <skills-item
-            :title="$t('tools.gimp')"
-            :level="$t('cv.skills.level.basics')"
-          ></skills-item>
-        </skills-list>
       </skills-list>
       <skills-list :title="$t('cv.skills.operating-systems')">
         <skills-list :title="$t('tools.os.dos')">
@@ -149,29 +121,53 @@
         </skills-list>
       </skills-list>
     </skills-list>
-    <skills-list :title="$t('cv.skills.general')">
-      <skills-list :title="$t('cv.skills.langs.title')">
+    <skills-list :title="$t('cv.skills.computer-graphics')">
+      <skills-list :title="$t('cv.skills.software.software')">
         <skills-item
-          :title="$t('lang.frFR')"
-          :level="$t('cv.skills.langs.native')"
+          :title="$t('tools.clip-studio-paint')"
+          :level="$t('cv.skills.level.intermediate')"
         ></skills-item>
         <skills-item
-          :title="$t('lang.enGB')"
-          :level="`${$t('cv.skills.langs.fluent')} (${$t(
-            'cv.skills.langs.c1'
-          )})`"
+          :title="$t('tools.adobe-suite')"
+          :level="$t('cv.skills.level.intermediate')"
+          :techs="[
+            $t('tools.photoshop'),
+            $t('tools.illustrator'),
+            $t('tools.premiere'),
+            $t('tools.animate'),
+          ]"
         ></skills-item>
         <skills-item
-          :title="$t('lang.esES')"
-          :level="`${$t('cv.skills.langs.basics')} (${$t(
-            'cv.skills.langs.a2'
-          )})`"
+          :title="$t('tools.krita')"
+          :level="$t('cv.skills.level.intermediate')"
         ></skills-item>
         <skills-item
-          :title="$t('lang.jpJP')"
-          :level="`${$t('cv.skills.langs.basics')}`"
+          :title="$t('tools.inkscape')"
+          :level="$t('cv.skills.level.intermediate')"
+        ></skills-item>
+        <skills-item
+          :title="$t('tools.gimp')"
+          :level="$t('cv.skills.level.basics')"
         ></skills-item>
       </skills-list>
+    </skills-list>
+    <skills-list :title="$t('cv.skills.langs.title')">
+      <skills-item
+        :title="$t('lang.frFR')"
+        :level="$t('cv.skills.langs.native')"
+      ></skills-item>
+      <skills-item
+        :title="$t('lang.enGB')"
+        :level="`${$t('cv.skills.langs.fluent')} (${$t('cv.skills.langs.c1')})`"
+      ></skills-item>
+      <skills-item
+        :title="$t('lang.esES')"
+        :level="`${$t('cv.skills.langs.basics')} (${$t('cv.skills.langs.a2')})`"
+      ></skills-item>
+      <skills-item
+        :title="$t('lang.jpJP')"
+        :level="`${$t('cv.skills.langs.basics')}`"
+      ></skills-item>
     </skills-list>
   </ul>
 </template>

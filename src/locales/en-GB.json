@@ -110,7 +110,8 @@
       }
     },
     "skills": {
-      "general": "Soft skills",
+      "computer-graphics": "Computer Graphics",
+      "computer-science": "Computer Science",
       "langs": {
         "a2": "A2",
         "basics": "Basics",
@@ -129,10 +130,8 @@
       "programming": "Programming",
       "software": {
         "game-engines": "Game engines",
-        "graphics": "Computer graphics",
         "software": "Software"
       },
-      "technical": "Technical skills",
       "title": "Skills"
     }
   },
@@ -141,7 +140,7 @@
   },
   "lang": {
     "enGB": "English",
-    "esES": "Spanish",
+    "esES": "Español (Spanish)",
     "frFR": "Français (French)",
     "jpJP": "日本語 (Japanese)",
     "language": "Language"

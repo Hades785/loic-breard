@@ -110,7 +110,8 @@
       }
     },
     "skills": {
-      "general": "Compétences générales",
+      "computer-graphics": "Infographie",
+      "computer-science": "Informatique",
       "langs": {
         "a2": "A2",
         "basics": "Bases",
@@ -129,10 +130,8 @@
       "programming": "Programmation",
       "software": {
         "game-engines": "Moteurs de jeux",
-        "graphics": "Infographie",
         "software": "Logiciels"
       },
-      "technical": "Compétences techniques",
       "title": "Compétences"
     }
   },
@@ -141,7 +140,7 @@
   },
   "lang": {
     "enGB": "English (Anglais)",
-    "esES": "Espagnol",
+    "esES": "Español (Espagnol)",
     "frFR": "Français",
     "jpJP": "日本語 (Japonais)",
     "language": "Langue"
