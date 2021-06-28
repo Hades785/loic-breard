@@ -4,6 +4,7 @@
     :titleLine="title"
     :firstLine="computed_description"
     :secondLine="computed_tools"
+    :link="link"
   ></generic-item>
 </template>
 
@@ -18,6 +19,7 @@ export default defineComponent({
     location: String,
     description: { type: String, required: true },
     tools: Array,
+    link: String,
   },
   components: {
     GenericItem,

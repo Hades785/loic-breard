@@ -11,6 +11,7 @@
         $t('tools.css-stylus'),
         $t('tools.ts'),
       ]"
+      :link="'https://github.com/Hades785/loic-breard/'"
     ></project-item>
     <project-item
       date="2020"
@@ -30,6 +31,7 @@
       :location="$t('cv.education.aminj.school')"
       :description="$t('cv.projects.aminj-nsggp.description')"
       :tools="[$t('tools.phaser'), $t('tools.electron'), $t('tools.js-es6')]"
+      :link="'https://github.com/Hades785/nsggp-game/'"
     ></project-item>
     <project-item
       date="2019"
@@ -44,6 +46,7 @@
       :location="$t('cv.education.aminj.school')"
       :description="$t('cv.projects.aminj-tumble.description')"
       :tools="[$t('tools.unity.unity'), $t('tools.csharp')]"
+      :link="'https://ludichat.itch.io/Tumble/'"
     ></project-item>
     <project-item
       date="2019-2020"
@@ -56,6 +59,7 @@
       :title="$t('cv.projects.opengl-renderer.title')"
       :description="$t('cv.projects.opengl-renderer.description')"
       :tools="[$t('tools.cpp'), $t('tools.opengl')]"
+      :link="'https://github.com/Hades785/opengl-2d-renderer-proto/'"
     ></project-item>
     <project-item
       date="2019"
@@ -75,6 +79,7 @@
       :location="$t('cv.education.upssitech.school')"
       :description="$t('cv.projects.upssitech-search.description')"
       :tools="[$t('tools.c'), $t('tools.java')]"
+      :link="'https://github.com/Hades785/upssitech-filrouge'"
     ></project-item>
     <project-item
       date="2018"

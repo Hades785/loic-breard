@@ -7948,6 +7948,11 @@ vue-i18n@^9.1.6:
     "@intlify/vue-devtools" "9.1.6"
     "@vue/devtools-api" "^6.0.0-beta.7"
 
+vue-ionicons@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/vue-ionicons/-/vue-ionicons-3.0.5.tgz#4c3cd6efc91738d760c30e663c89932e4304e5fa"
+  integrity sha512-1zZN/mcLRk6XKmQYMue699ut99qVMm+YfB3TY6jcTuzLSYh76BS9CcToLX/9v/0aOf8aTKHAPx2USdNBaY9IRw==
+
 vue-loader@^16.1.2:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.2.0.tgz#046a53308dd47e58efe20ddec1edec027ce3b46e"

@@ -7,12 +7,17 @@
     <small v-if="firstLine || secondLine">
       <span v-if="firstLine">{{ firstLine }}</span>
       <span v-if="secondLine">{{ secondLine }}</span>
+      <span v-if="link">
+        <link-icon></link-icon>
+        <a :href="link">{{ link }}</a>
+      </span>
     </small>
   </li>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import LinkIcon from "vue-ionicons/dist/md-link.vue";
 
 export default defineComponent({
   name: "GenericItem",
@@ -21,6 +26,10 @@ export default defineComponent({
     titleLine: { type: String, required: true },
     firstLine: String,
     secondLine: String,
+    link: String,
+  },
+  components: {
+    "link-icon": LinkIcon,
   },
 });
 </script>
@@ -48,4 +57,11 @@ li
 
 li:hover
   color var(--accent-colour)
+
+  .ion
+    fill var(--accent-colour)
+
+.ion
+  display inline
+  padding-right .5em
 </style>

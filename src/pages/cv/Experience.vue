@@ -7,6 +7,7 @@
       :location="$t('cv.experience.iridessence-demo.location')"
       :description="$t('cv.experience.iridessence-demo.description')"
       :tools="[$t('tools.unity.unity'), $t('tools.csharp')]"
+      :link="'https://ludichat.itch.io/iridessence-ggj20/'"
     ></experience-item>
     <experience-item
       date="2018"

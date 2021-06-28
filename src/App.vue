@@ -164,4 +164,7 @@ html, body
 #content
   grid-row 2
   margin: 10px
+
+.ion
+  fill var(--text-colour)
 </style>
