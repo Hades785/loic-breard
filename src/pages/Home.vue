@@ -1,15 +1,7 @@
 <template>
-  <h2>PLACEHOLDER</h2>
+  <h2>{{ $t("home.welcome") }}</h2>
   <p>
-    {{
-      $t("home.message").replace(
-        "$$age$$",
-        (
-          new Date(Date.now() - Date.parse("1998-11-09")).getFullYear() -
-          new Date(0).getFullYear()
-        ).toString()
-      )
-    }}
+    {{ $t("home.message") }}
   </p>
   <pre>{{ uwufetch }}</pre>
 </template>

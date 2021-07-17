@@ -4,7 +4,7 @@
       "cv": "CV",
       "email": "E-Mail",
       "linkedin": "LinkedIn",
-      "paragraph": "Welcome to my website.\nI am Loïc Bréard, student in second year of Master's degree.\nMy contact details are available below, more information on my degrees and my skills is available right here.",
+      "paragraph": "I am a student in second year of Master's degree, doing my end of studies internship. My contact information is available under this message and more information related to my CV are available in this section's pages.",
       "portfolio": "Portfolio",
       "title": "About"
     },
@@ -136,7 +136,8 @@
     }
   },
   "home": {
-    "message": "Hello, I'm a software developer and game developer. I'm $$age$$ years old by the way."
+    "message": "I am Loïc Bréard. I am a software, web and game developer.",
+    "welcome": "Welcome to my website."
   },
   "lang": {
     "enGB": "English",
