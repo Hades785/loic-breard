@@ -3,25 +3,35 @@
   <p>
     {{ $t("home.message") }}
   </p>
-  <pre>{{ uwufetch }}</pre>
+  <pre>{{ presentation }}</pre>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, ref, watch } from "vue";
+import { useI18n } from "vue-i18n";
 
 export default defineComponent({
   setup() {
-    const uwufetch = `
-        /\\        OS          Arch Linux
-       /  \\       KERNEL      Linux 5.10.32-1-MANJARO x86_64
-      /\\   \\      CPU         AMD Ryzen 5 PRO 4650U with Radeon Graphics
-     / > w <\\     GPU         Renoir
-    /   __   \\    RAM         15290 MB
-   / __|  |__-\\   SHELL       /bin/zsh
-  /_-''    ''-_\\  `;
+    const { locale, t } = useI18n();
+
+    const age = (
+      new Date(Date.now() - Date.parse("1998-11-09")).getFullYear() -
+      new Date(0).getFullYear()
+    ).toString();
+
+    const presentation = ref("");
+
+    const refreshPresentation = () => {
+      presentation.value = `
+${`${t("home.presentation.age")}${t("punctuation.colon")}`.padEnd(10)}${age}
+`;
+    };
+
+    refreshPresentation();
+    watch(locale, refreshPresentation);
 
     return {
-      uwufetch,
+      presentation,
     };
   },
 });

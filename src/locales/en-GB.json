@@ -137,6 +137,9 @@
   },
   "home": {
     "message": "I am Loïc Bréard. I am a software, web and game developer.",
+    "presentation": {
+      "age": "Age",
+    },
     "welcome": "Welcome to my website."
   },
   "lang": {
@@ -145,6 +148,10 @@
     "frFR": "Français (French)",
     "jpJP": "日本語 (Japanese)",
     "language": "Language"
+  },
+  "punctuation": {
+    "colon": ": ",
+    "comma": ", "
   },
   "title": "Loïc Bréard　「フズキ」",
   "tools": {

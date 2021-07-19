@@ -137,6 +137,9 @@
   },
   "home": {
     "message": "私は「Bréard・Loïc」（ブレアール・ロイック）。私はソフトウェアとウェブとゲームの開発者です。",
+    "presentation": {
+      "age": "",
+    },
     "welcome": "私のウェブサイトへようこそ。"
   },
   "lang": {
@@ -145,6 +148,10 @@
     "frFR": "Français (フランス語)",
     "jpJP": "日本語",
     "language": "言葉"
+  },
+  "punctuation": {
+    "colon": "",
+    "comma": "、"
   },
   "title": "ブレアール・ロイック　「フズキ」",
   "tools": {
