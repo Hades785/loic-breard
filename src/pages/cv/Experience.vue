@@ -2,7 +2,7 @@
   <h2>{{ $t("cv.experience.title") }}</h2>
   <ul>
     <experience-item
-      date="2020"
+      date="2020-02"
       :title="$t('cv.experience.iridessence-demo.title')"
       :location="$t('cv.experience.iridessence-demo.location')"
       :description="$t('cv.experience.iridessence-demo.description')"
@@ -10,7 +10,7 @@
       :link="'https://ludichat.itch.io/iridessence-ggj20/'"
     ></experience-item>
     <experience-item
-      date="2018"
+      date="2018-07"
       :title="$t('cv.experience.ubinet2.title')"
       :location="$t('cv.experience.ubinet2.location')"
       :description="$t('cv.experience.ubinet2.description')"
@@ -23,7 +23,7 @@
       ]"
     ></experience-item>
     <experience-item
-      date="2018"
+      date="2018-04 — 2018-06"
       :title="$t('cv.experience.ubinet.title')"
       :location="$t('cv.experience.ubinet.location')"
       :description="$t('cv.experience.ubinet.description')"
@@ -37,7 +37,7 @@
       ]"
     ></experience-item>
     <experience-item
-      date="2017"
+      date="2017-12"
       :title="$t('cv.experience.nuit-info.title')"
       :location="$t('cv.experience.nuit-info.location')"
       :description="$t('cv.experience.nuit-info.description')"

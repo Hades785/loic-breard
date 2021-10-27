@@ -11,17 +11,17 @@
     "cv": "Curriculum Vitae",
     "education": {
       "aminj": {
-        "school": "INU Champollion - Albi, France",
-        "title": "Master's Degree - Audiovisual, Interactive Digital Media, Games"
+        "school": "INU Champollion — Albi, France",
+        "title": "Master's Degree — Audiovisual, Interactive Digital Media, Games"
       },
       "iut": {
-        "school": "Blagnac University Institute of Technology - Blagnac, France",
-        "title": "Technology Degree (DUT) - Computer Science"
+        "school": "Blagnac University Institute of Technology — Blagnac, France",
+        "title": "Technology Degree (DUT) — Computer Science"
       },
       "title": "Education",
       "upssitech": {
-        "school": "UPSSITECH - Toulouse, France",
-        "title": "Engineering School - Robotics and Interactive Systems"
+        "school": "UPSSITECH — Toulouse, France",
+        "title": "Engineering School — Robotics and Interactive Systems"
       }
     },
     "experience": {

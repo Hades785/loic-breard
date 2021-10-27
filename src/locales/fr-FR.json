@@ -11,17 +11,17 @@
     "cv": "Curriculum Vitae",
     "education": {
       "aminj": {
-        "school": "INU Champollion - Albi, France",
-        "title": "Master - Audiovisuel, Média Interactifs Numériques, Jeux"
+        "school": "INU Champollion — Albi, France",
+        "title": "Master — Audiovisuel, Média Interactifs Numériques, Jeux"
       },
       "iut": {
-        "school": "IUT de Blagnac - Blagnac, France",
-        "title": "DUT - Informatique"
+        "school": "IUT de Blagnac — Blagnac, France",
+        "title": "DUT — Informatique"
       },
       "title": "Formation",
       "upssitech": {
-        "school": "UPSSITECH - Toulouse, France",
-        "title": "Ecole d'Ingénieurs (1ère année) - Systèmes Robotiques et Interactifs"
+        "school": "UPSSITECH — Toulouse, France",
+        "title": "Ecole d'Ingénieurs (1ère année) — Systèmes Robotiques et Interactifs"
       }
     },
     "experience": {
