@@ -144,6 +144,7 @@
     "message": "Je suis Loïc Bréard. Je suis un développeur de logiciels, web et de jeux.",
     "presentation": {
       "age": "Âge",
+      "os": "OS"
     },
     "welcome": "Bienvenue sur mon site."
   },
@@ -207,6 +208,7 @@
         "kde-neon": "KDE Neon (Ubuntu)",
         "linux": "Linux",
         "manjaro": "Manjaro (Arch)",
+        "nixos": "NixOS",
         "ubuntu": "Ubuntu (Debian)"
       },
       "mobile": "Mobile",
