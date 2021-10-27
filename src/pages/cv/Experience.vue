@@ -2,6 +2,13 @@
   <h2>{{ $t("cv.experience.title") }}</h2>
   <ul>
     <experience-item
+      date="2021-05 — 2021-11"
+      :title="$t('cv.experience.egsersis.title')"
+      :location="$t('cv.experience.egsersis.location')"
+      :description="$t('cv.experience.egsersis.description')"
+      :tools="[$t('tools.unity.unity'), $t('tools.csharp'), $t('tools.openxr')]"
+    ></experience-item>
+    <experience-item
       date="2020-02"
       :title="$t('cv.experience.iridessence-demo.title')"
       :location="$t('cv.experience.iridessence-demo.location')"

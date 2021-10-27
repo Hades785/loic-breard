@@ -25,6 +25,11 @@
       }
     },
     "experience": {
+      "egsersis": {
+        "description": "Developed a crisis management exercise simulation in virtual reality with Unity.",
+        "location": "IMT Mines Albi-Carmaux: Albi, France",
+        "title": "Virtual reality simulation"
+      },
       "iridessence-demo": {
         "description": "Developed a prototype for a game idea.",
         "location": "Albi, France",
